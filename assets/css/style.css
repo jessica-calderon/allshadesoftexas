@@ -1,10 +1,3 @@
-/**
-* Template Name: Delicious - v4.9.0
-* Template URL: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -15,7 +8,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #ffb03b;
+  color: #03507c;
 }
 
 a:hover {
@@ -42,7 +35,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ffb03b;
+  background: #03507c;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -139,10 +132,10 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Book a table button Menu
+# Free Quote Button
 --------------------------------------------------------------*/
 .book-a-table-btn {
-  background: #ffb03b;
+  background: #03507c;
   color: #fff;
   border-radius: 50px;
   margin: 0 0 0 20px;
@@ -520,12 +513,12 @@ h6 {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   color: #fff;
-  border: 2px solid #ffb03b;
+  border: 2px solid #03507c;
 }
 
 #hero .btn-menu:hover,
 #hero .btn-book:hover {
-  background: #ffb03b;
+  background: #03507c;
   color: #fff;
 }
 
@@ -585,72 +578,13 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
-.breadcrumbs {
-  padding: 20px 0;
-  background-color: #f2f1ef;
-  min-height: 40px;
-  margin-top: 120px;
-}
-
-@media (max-width: 992px) {
-  .breadcrumbs {
-    margin-top: 70px;
-  }
-}
-
-.breadcrumbs h2 {
-  font-size: 24px;
-  font-weight: 300;
-  margin: 0;
-}
-
-@media (max-width: 992px) {
-  .breadcrumbs h2 {
-    margin: 0 0 10px 0;
-  }
-}
-
-.breadcrumbs ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 14px;
-}
-
-.breadcrumbs ol li+li {
-  padding-left: 10px;
-}
-
-.breadcrumbs ol li+li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: #6c757d;
-  content: "/";
-}
-
-@media (max-width: 768px) {
-  .breadcrumbs .d-flex {
-    display: block !important;
-  }
-
-  .breadcrumbs ol {
-    display: block;
-  }
-
-  .breadcrumbs ol li {
-    display: inline-block;
-  }
-}
-
-/*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
 .about {
   background: #fffaf3;
+}
+.about span {
+  color: #03507c;
 }
 
 .about .content {
@@ -825,7 +759,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Whu Us
+# Why Us
 --------------------------------------------------------------*/
 .why-us .box {
   padding: 50px 30px;
@@ -857,7 +791,7 @@ section {
 }
 
 .why-us .box:hover {
-  background: #ffb03b;
+  background: #03507c;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
@@ -866,148 +800,6 @@ section {
 .why-us .box:hover h4,
 .why-us .box:hover p {
   color: #fff;
-}
-
-/*--------------------------------------------------------------
-# Menu Section
---------------------------------------------------------------*/
-.menu #menu-flters {
-  padding: 0;
-  margin: 0 auto 0 auto;
-  list-style: none;
-  text-align: center;
-  border-radius: 50px;
-}
-
-.menu #menu-flters li {
-  cursor: pointer;
-  display: inline-block;
-  padding: 8px 16px 10px 16px;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1;
-  color: #444444;
-  margin: 0 3px 10px 3px;
-  transition: all ease-in-out 0.3s;
-  background: #fff;
-  border: 2px solid #ffb03b;
-  border-radius: 50px;
-}
-
-.menu #menu-flters li:hover,
-.menu #menu-flters li.filter-active {
-  color: #fff;
-  background: #ffb03b;
-}
-
-.menu #menu-flters li:last-child {
-  margin-right: 0;
-}
-
-.menu .menu-content {
-  margin-top: 30px;
-  overflow: hidden;
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-}
-
-.menu .menu-content::after {
-  content: "......................................................................""....................................................................""....................................................................";
-  position: absolute;
-  left: 20px;
-  right: 0;
-  top: -4px;
-  z-index: 1;
-  color: #dad8d4;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-}
-
-.menu .menu-content a {
-  padding-right: 10px;
-  background: #fff;
-  position: relative;
-  z-index: 3;
-  font-weight: 700;
-  color: #ff9b08;
-}
-
-.menu .menu-content span {
-  background: #fff;
-  position: relative;
-  z-index: 3;
-  padding: 0 10px;
-  font-weight: 600;
-}
-
-.menu .menu-ingredients {
-  font-style: italic;
-  font-size: 14px;
-  font-family: "Comic Neue", sans-serif;
-  color: #948c81;
-}
-
-/*--------------------------------------------------------------
-# Specials
---------------------------------------------------------------*/
-.specials {
-  overflow: hidden;
-}
-
-.specials .nav-tabs {
-  border: 0;
-}
-
-.specials .nav-link {
-  border: 0;
-  padding: 12px 15px 12px 0;
-  transition: 0.3s;
-  color: #433f39;
-  border-radius: 0;
-  border-right: 2px solid #e8e7e4;
-  font-weight: 600;
-  font-size: 15px;
-}
-
-.specials .nav-link:hover {
-  color: #ffb03b;
-}
-
-.specials .nav-link.active {
-  color: #ffb03b;
-  border-color: #ffb03b;
-}
-
-.specials .tab-pane.active {
-  -webkit-animation: fadeIn 0.5s ease-out;
-  animation: fadeIn 0.5s ease-out;
-}
-
-.specials .details h3 {
-  font-size: 26px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  color: #433f39;
-}
-
-.specials .details p {
-  color: #777777;
-}
-
-.specials .details p:last-child {
-  margin-bottom: 0;
-}
-
-@media (max-width: 992px) {
-  .specials .nav-link {
-    border: 0;
-    padding: 15px;
-  }
-
-  .specials .nav-link.active {
-    color: #fff;
-    background: #ffb03b;
-  }
 }
 
 /*--------------------------------------------------------------
@@ -1103,99 +895,6 @@ section {
 .events .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #ffb03b;
 }
-
-/*--------------------------------------------------------------
-# Book A Table
---------------------------------------------------------------*/
-.book-a-table .php-email-form {
-  width: 100%;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-  padding: 30px;
-  background: #fff;
-}
-
-.book-a-table .php-email-form .form-group {
-  padding-bottom: 8px;
-}
-
-.book-a-table .php-email-form .validate {
-  display: none;
-  color: red;
-  margin: 0 0 15px 0;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-.book-a-table .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.book-a-table .php-email-form .error-message br+br {
-  margin-top: 25px;
-}
-
-.book-a-table .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.book-a-table .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.book-a-table .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-
-.book-a-table .php-email-form input,
-.book-a-table .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-}
-
-.book-a-table .php-email-form input {
-  height: 44px;
-}
-
-.book-a-table .php-email-form textarea {
-  padding: 10px 12px;
-}
-
-.book-a-table .php-email-form button[type=submit] {
-  background: #ffb03b;
-  border: 0;
-  padding: 10px 24px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 50px;
-}
-
-.book-a-table .php-email-form button[type=submit]:hover {
-  background: #ffa012;
-}
-
 /*--------------------------------------------------------------
 # Gallery
 --------------------------------------------------------------*/
@@ -1216,113 +915,6 @@ section {
 .gallery .gallery-item:hover img {
   transform: scale(1.1);
 }
-
-/*--------------------------------------------------------------
-# Chefs
---------------------------------------------------------------*/
-.chefs {
-  background: url("../img/chefs-bg.jpg") center center no-repeat;
-  background-size: cover;
-  padding: 60px 0;
-  position: relative;
-}
-
-.chefs::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: rgba(255, 255, 255, 0.8);
-  z-index: 9;
-}
-
-.chefs .container {
-  position: relative;
-  z-index: 10;
-}
-
-.chefs .member {
-  text-align: center;
-  margin-bottom: 80px;
-  position: relative;
-}
-
-.chefs .member .pic {
-  overflow: hidden;
-}
-
-.chefs .member .member-info {
-  position: absolute;
-  bottom: -80px;
-  left: 20px;
-  right: 20px;
-  background: #fff;
-  padding: 20px 0;
-  color: #433f39;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  transition: max-height 0.5s ease-in-out;
-}
-
-.chefs .member h4 {
-  font-weight: 500;
-  margin-bottom: 10px;
-  font-size: 16px;
-  color: #6c665c;
-  position: relative;
-  padding-bottom: 10px;
-  font-family: "Poppins", sans-serif;
-}
-
-.chefs .member h4::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 1px;
-  background: #ffcf88;
-  bottom: 0;
-  left: calc(50% - 25px);
-}
-
-.chefs .member span {
-  font-style: italic;
-  display: block;
-  font-size: 13px;
-}
-
-.chefs .member .social {
-  margin-top: 15px;
-}
-
-.chefs .member .social a {
-  transition: color 0.3s;
-  color: #7a7368;
-}
-
-.chefs .member .social a:hover {
-  color: #ffb03b;
-}
-
-.chefs .member .social i {
-  font-size: 16px;
-  margin: 0 2px;
-}
-
-@media (max-width: 992px) {
-  .chefs .member {
-    margin-bottom: 110px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .chefs {
-    background-attachment: fixed;
-  }
-}
-
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
@@ -1544,7 +1136,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #ffb03b;
+  background: #03507c;
   border: 0;
   padding: 10px 24px;
   color: #fff;
