@@ -309,6 +309,7 @@ h6 {
   z-index: 0;
 }
 
+
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
   top: 15px;
@@ -384,7 +385,7 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
+#about {
   width: 100%;
   height: 100vh;
   background-color: rgba(39, 37, 34, 0.8);
@@ -392,7 +393,7 @@ h6 {
   padding: 0;
 }
 
-#hero .carousel-item {
+#about .carousel-item {
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -400,7 +401,7 @@ h6 {
   background-repeat: no-repeat;
 }
 
-#hero .carousel-item::before {
+#about .carousel-item::before {
   content: "";
   background-color: rgba(12, 11, 10, 0.5);
   position: absolute;
@@ -410,7 +411,7 @@ h6 {
   bottom: 0;
 }
 
-#hero .carousel-container {
+#about .carousel-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -421,22 +422,22 @@ h6 {
   right: 0;
 }
 
-#hero .carousel-content {
+#about .carousel-content {
   text-align: center;
 }
 
-#hero h2 {
+#about h2 {
   color: #fff;
   margin-bottom: 30px;
   font-size: 48px;
   font-weight: 700;
 }
 
-#hero h2 span {
+#about h2 span {
   color: #ffb03b;
 }
 
-#hero p {
+#about p {
   width: 80%;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
@@ -444,34 +445,34 @@ h6 {
   color: #fff;
 }
 
-#hero .carousel-inner .carousel-item {
+#about .carousel-inner .carousel-item {
   transition-property: opacity;
   background-position: center top;
 }
 
-#hero .carousel-inner .carousel-item,
-#hero .carousel-inner .active.carousel-item-start,
-#hero .carousel-inner .active.carousel-item-end {
+#about .carousel-inner .carousel-item,
+#about .carousel-inner .active.carousel-item-start,
+#about .carousel-inner .active.carousel-item-end {
   opacity: 0;
 }
 
-#hero .carousel-inner .active,
-#hero .carousel-inner .carousel-item-next.carousel-item-start,
-#hero .carousel-inner .carousel-item-prev.carousel-item-end {
+#about .carousel-inner .active,
+#about .carousel-inner .carousel-item-next.carousel-item-start,
+#about .carousel-inner .carousel-item-prev.carousel-item-end {
   opacity: 1;
   transition: 0.5s;
 }
 
-#hero .carousel-inner .carousel-item-next,
-#hero .carousel-inner .carousel-item-prev,
-#hero .carousel-inner .active.carousel-item-start,
-#hero .carousel-inner .active.carousel-item-end {
+#about .carousel-inner .carousel-item-next,
+#about .carousel-inner .carousel-item-prev,
+#about .carousel-inner .active.carousel-item-start,
+#about .carousel-inner .active.carousel-item-end {
   left: 0;
   transform: translate3d(0, 0, 0);
 }
 
-#hero .carousel-control-next-icon,
-#hero .carousel-control-prev-icon {
+#about .carousel-control-next-icon,
+#about .carousel-control-prev-icon {
   background: none;
   font-size: 30px;
   line-height: 0;
@@ -488,18 +489,18 @@ h6 {
   justify-content: center;
 }
 
-#hero .carousel-control-next-icon:hover,
-#hero .carousel-control-prev-icon:hover {
+#about .carousel-control-next-icon:hover,
+#about .carousel-control-prev-icon:hover {
   background: rgba(255, 255, 255, 0.3);
   color: rgba(255, 255, 255, 0.8);
 }
 
-#hero .carousel-indicators li {
+#about .carousel-indicators li {
   cursor: pointer;
 }
 
-#hero .btn-menu,
-#hero .btn-book {
+#about .btn-menu,
+#about .btn-book {
   font-weight: 600;
   font-size: 13px;
   letter-spacing: 1px;
@@ -516,25 +517,25 @@ h6 {
   border: 2px solid #03507c;
 }
 
-#hero .btn-menu:hover,
-#hero .btn-book:hover {
+#about .btn-menu:hover,
+#about .btn-book:hover {
   background: #03507c;
   color: #fff;
 }
 
 @media (max-width: 768px) {
-  #hero h2 {
+  #about h2 {
     font-size: 28px;
   }
 }
 
 @media (min-width: 1024px) {
-  #hero p {
+  #about p {
     width: 50%;
   }
 
-  #hero .carousel-control-prev,
-  #hero .carousel-control-next {
+  #about .carousel-control-prev,
+  #about .carousel-control-next {
     width: 5%;
   }
 }
@@ -756,6 +757,12 @@ section {
     transform: scale(1, 1);
     opacity: 0;
   }
+}
+/*--------------------------------------------------------------
+# Custom Indent for List
+--------------------------------------------------------------*/
+.customIndent {
+  margin-left: 25px;
 }
 
 /*--------------------------------------------------------------
