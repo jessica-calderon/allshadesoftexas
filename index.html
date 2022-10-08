@@ -33,12 +33,15 @@
 <body>
 
   <!-- ======= Top Bar ======= -->
-  <section id="topbar" class="d-flex align-items-center fixed-top topbar-transparent">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-center justify-content-lg-start">
-      <i class="bi bi-phone d-flex align-items-center"><span><a href="tel:2104400007">210-440-0007</a></span></i>
-    </div>
-  </section>
+  <div id="topbar" class="d-flex align-items-center fixed-top">
+    <div class="container d-flex justify-content-center justify-content-md-between">
 
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-phone d-flex align-items-center"><span>(210) 440-0007</span></i>
+        <i class="bi bi-clock d-flex align-items-center ms-4"><span> Mon-Fri: 8AM - 6PM</span></i>
+      </div>
+    </div>
+  </div>
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center header-transparent">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
@@ -379,12 +382,24 @@
 
         <div class="info-wrap">
           <div class="row">
-            <div class="col-lg-3 col-md-6 info">
+            <div class="col-lg-3 col-md-6 info mb-4">
               <i class="bi bi-geo-alt"></i>
               <h4>Location</h4>
               <p>7601 Daffan Ln. Unit #344<br>Austin, Texas</p>
             </div>
 
+            <div class="col-lg-3 col-md-6 info">
+            <div class="open-hours">
+              <i class="bi bi-clock"></i>
+              <h4>Open Hours</h4>
+              <p>
+                Monday - Friday<br>
+                8:00 AM - 6:00 PM
+                <br>
+                Closed Sat & Sun
+              </p>
+              </div>
+            </div>
             <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
               <i class="bi bi-envelope"></i>
               <h4>Email</h4>
@@ -393,7 +408,7 @@
 
             <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
               <i class="bi bi-phone"></i>
-              <h4>Phone</h4>
+              <h4>Contact</h4>
               <p><a href="tel:2104400007">210-440-0007</a></p>
             </div>
           </div>
