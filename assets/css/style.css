@@ -717,7 +717,9 @@ section {
   animation: none;
   border-radius: 0;
 }
-
+li {
+  list-style: none;
+}
 @media (max-width: 1024px) {
 
   .about .content,
@@ -765,6 +767,9 @@ section {
 --------------------------------------------------------------*/
 .customIndent {
   margin-left: 25px;
+}
+.customNonIndent {
+  margin-left: -25px;
 }
 
 /*--------------------------------------------------------------
