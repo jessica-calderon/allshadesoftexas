@@ -114,7 +114,7 @@ h6 {
 }
 
 #header .logo h1 {
-  font-size: 28px;
+  font-size: 1.3rem;
   margin: 0;
   line-height: 1;
   font-weight: 400;
@@ -1177,12 +1177,16 @@ li {
     transform: rotate(360deg);
   }
 }
+.text-shadow {
+  text-shadow: 2px 2px black;
+}
 
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
   background: #35322d;
+  background: url(../img/footer.jpg) center center no-repeat;
   color: #fff;
   font-size: 14px;
   text-align: center;
