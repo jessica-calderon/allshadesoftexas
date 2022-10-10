@@ -1037,6 +1037,9 @@ li {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.form-control input {
+  margin: 15px auto 15px auto;
+}
 .contact .info-wrap {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 30px;
