@@ -1,6 +1,6 @@
 /* Sending Email from Contact Section */
 (function () {
-  emailjs.init("b_jI0X13BX8z6RCOG");
+  emailjs.init("aRO8N19pDBgGnZSmm");
 })();
 /* emailJS stuff */
 function sendmail() {
@@ -24,7 +24,7 @@ function sendmail() {
   };
 
   emailjs
-    .send("service_id", "template_id", contactParams)
+    .send("service_94go286", "template_2fnrdw5", contactParams)
     .then(function (res) {})
 
     .then(
@@ -119,6 +119,7 @@ function sendmail() {
       behavior: "smooth",
     });
   };
+
 
   /**
    * Toggle .header-scrolled class to #header when page is scrolled

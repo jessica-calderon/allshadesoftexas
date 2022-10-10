@@ -22,7 +22,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Anton", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -844,15 +844,17 @@ li {
   position: relative;
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   .events {
     background-attachment: fixed;
   }
-}
+} */
 
 .events .events-carousel {
   background: rgba(255, 255, 255, 0.08);
   padding: 30px;
+  display: flex;
+  align-items: center;
 }
 
 .events .event-item {
@@ -863,17 +865,6 @@ li {
   font-weight: 600;
   font-size: 26px;
   color: #ffb03b;
-}
-
-.events .event-item .price {
-  font-size: 26px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  margin-bottom: 15px;
-}
-
-.events .event-item .price span {
-  border-bottom: 2px solid #ffb03b;
 }
 
 .events .event-item ul {
@@ -898,6 +889,7 @@ li {
 .events .swiper-pagination {
   margin-top: 20px;
   position: relative;
+  display: flex;
 }
 
 .events .swiper-pagination .swiper-pagination-bullet {
