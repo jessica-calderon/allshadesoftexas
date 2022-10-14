@@ -89,6 +89,9 @@ h6 {
   font-style: normal;
   padding-left: 5px;
 }
+#topbar .link-light a {
+  color: white;
+}
 .text-shadow {
   text-shadow: 2px 2px 3px black;
 }
@@ -924,6 +927,11 @@ li {
 }
 .portfolio {
   background-color: #fffaf3;
+}
+@media screen and (min-width: 728px) {
+#portfolioContainer .gallery img {
+  max-height: 200px;
+}
 }
 /*--------------------------------------------------------------
 # Testimonials
