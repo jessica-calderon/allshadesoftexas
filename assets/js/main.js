@@ -12,6 +12,10 @@ function sendmail() {
   let contactPref = document.getElementById("contact_pref").value;
   let userTopic = document.getElementById("topic").value;
   let userMessage = document.getElementById("message").value;
+  let datePref = document.getElementById("datePicker").value;
+  let timePref = document.getElementById("time").value;
+  let additionalInfo = document.getElementById("info").value;
+  let additionalInfo2 = document.getElementById("info2").value;
 
   var contactParams = {
     from_name: fullName,
@@ -21,6 +25,10 @@ function sendmail() {
     contactPreference: contactPref,
     topic: userTopic,
     message: userMessage,
+    datePreference: datePref,
+    timePreference: timePref,
+    info1: additionalInfo,
+    info2: additionalInfo2
   };
 
   emailjs
