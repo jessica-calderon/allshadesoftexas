@@ -361,7 +361,7 @@
                   <img src="assets/img/slide/slide1.JPG" class="mx-auto d-block img-fluid" alt="">
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div><!-- End gallery item -->
 
             <div class="swiper-slide">
               <div class="row event-item">
@@ -369,7 +369,7 @@
                   <img src="assets/img/slide/slide2.JPG" class="mx-auto d-block img-fluid" alt="">
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div><!-- End gallery item -->
 
 
             <div class="swiper-slide">
@@ -378,14 +378,14 @@
                   <img src="assets/img/slide/slide3.JPG" class="mx-auto d-block img-fluid" alt="">
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div><!-- End gallery item -->
 
           </div>
           <div class="swiper-pagination"></div>
         </div>
-
+        <div class="text-center mt-2"><a href="./portfolio.html" alt="Photo Portfolio Page"><span class="h4">Click Here to See <strong>More</strong></span></a></div>
       </div>
-    </section><!-- End Events Section -->
+    </section><!-- End Quick Portfolio Section -->
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
@@ -452,27 +452,13 @@
                 <input type="tel" class="form-control" name="number" id="number" placeholder="Your Phone Number *">
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-12 form-group ">
-                <select class="custom-select form-select" id="topic" name="topic">
-                  <option disabled selected> -- Select a Topic -- </option>
-                  <option value="Enclosed Patios/Porches">Enclosed Patios/Porches</option>
-                  <option value="Sun Rooms">Sun Rooms</option>
-                  <option value="Solar Screens">Solar Screens</option>
-                  <option value="Snaps Lock Roof">Snaps Lock Roof</option>
-                  <option value="Storm Doors">Storm Doors</option>
-                  <option value="Screen Doors">Screen Doors</option>
-                  <option value="Roller Shades">Roller Shades: Motorized & Manual</option>
-                  <option value="Garage Sliders">Retractable Garage Sliders</option>
-                  <option value="Something Else">Something Else</option>
-                </select>
-              </div>
               <div class="col-md-12 form-group">
-                <label for="Topic" class="col-form-label"><i class='bx bxs-time-five'></i> Preferred Contact Date/Timeframe</label>
+                <label for="Topic" class="col-form-label"><i class='bx bxs-time-five'></i> Preferred Contact
+                  Date/Timeframe</label>
                 <div id="date-picker" class="p-1 md-form md-outline input-with-post-icon datepicker" inline="true">
                   <input value="date" name="date" type="date"
-                    class="datepicker custom-select form-select mx-auto p-2 md-form md-outline " placeholder="mm/dd/yyyy" id="datePicker"
-                    data-provide="datepicker" bsDatepicker [bsConfig]="{ dateInputFormat: 'MM/DD/YYYY'>
+                    class="datepicker custom-select form-select mx-auto p-2 md-form md-outline "
+                    placeholder="mm/dd/yyyy" id="datePicker" data-provide="datepicker" bsDatepicker [bsConfig]="{ dateInputFormat: 'MM/DD/YYYY'>
                     <i class=" ml-2 fas fa-clock input-prefix"></i>
 
                   <select class="mt-2 custom-select form-select" name="time" id="time">
@@ -482,14 +468,15 @@
                     <option value="Anytime">Anytime</option>
                   </select>
                 </div>
-                <label for="information" class="col-form-label"><i class='bx bxs-building-house' ></i> Property Information</label><br />
+                <label for="information" class="col-form-label"><i class='bx bxs-building-house'></i> Property
+                  Information</label><br />
                 <select class="m-select mx-auto p-2 md-form md-outline form-select custom-select" name="info" id="info">
                   <option disabled selected> -- Residential or Commercial -- </option>
                   <option value="Residential">Residential</option>
                   <option value="Commercial">Commercial</option>
                   <option value="N/A">N/A</option>
                 </select>
-                <select class="mt-2 m-select mx-auto p-2 md-form md-outline form-select custom-select" name="info2"
+                <select class="my-2 m-select mx-auto p-2 md-form md-outline form-select custom-select" name="info2"
                   id="info2">
                   <option disabled selected> -- Floors --</option>
                   <option value="1 Story">1 Story</option>
@@ -498,20 +485,36 @@
                   <option value="N/A">N/A</option>
                 </select>
 
-                    <!-- <label for="subject" class="mt-2 col-form-label">Subject</label>
+                <!-- <label for="subject" class="mt-2 col-form-label">Subject</label>
                     <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
                   </div> -->
+                  <div class="row">
+                    <div class="col-md-12 form-group ">
+                      <select class="custom-select form-select" id="topic" name="topic">
+                        <option disabled selected> -- Select a Subject -- </option>
+                        <option value="Enclosed Patios/Porches">Enclosed Patios/Porches</option>
+                        <option value="Sun Rooms">Sun Rooms</option>
+                        <option value="Solar Screens">Solar Screens</option>
+                        <option value="Snaps Lock Roof">Snaps Lock Roof</option>
+                        <option value="Storm Doors">Storm Doors</option>
+                        <option value="Screen Doors">Screen Doors</option>
+                        <option value="Roller Shades">Roller Shades: Motorized & Manual</option>
+                        <option value="Garage Sliders">Retractable Garage Sliders</option>
+                        <option value="Something Else">Something Else</option>
+                      </select>
 
-                  <label for="message" class="col-form-label"><i class='bx bxs-message-rounded-dots' ></i> Message *</label>
-                  <textarea class="form-control mb-3" name="message" id="message" cols="30" rows="4"
-                    placeholder="Write your message"></textarea>
+
+                <label for="message" class="col-form-label"><i class='bx bxs-message-rounded-dots'></i> Message
+                  *</label>
+                <textarea class="form-control mb-3" name="message" id="message" cols="30" rows="4"
+                  placeholder="Write your message"></textarea>
 
 
-                  <button type="submit" value="Send Message" class="btn btn-primary btn-block w-100 py-2 px-4"
-                    onclick="sendmail()">Send Us A Message</button>
-                  <span class="submitting"></span>
+                <button type="submit" value="Send Message" class="btn btn-primary btn-block w-100 py-2 px-4"
+                  onclick="sendmail()">Send Us A Message</button>
+                <span class="submitting"></span>
               </div>
-
+                    </div>
           </form>
           <!-- Message Sent Alert (display on successful message send) -->
           <div class="alert alert-success collapse mt-3" role="alert" id="messageSent">
@@ -535,12 +538,12 @@
           <div class="col-lg-8 mx-auto d-flex flex-column justify-content-center align-items-stretch">
             <div class="content p-4">
               <p class="h1 text-center text-yellow">
-                <i class='bx bxs-contact' ></i>
+                <i class='bx bxs-contact'></i>
               </p>
               <p class="h2 text-white text-shadow px-4 text-center">
                 Scan the QR code with your phone to add us to your contacts!</p>
-                <p class="text-center">
-                <img src="./assets/img/qr.png" alt="QR code"/>
+              <p class="text-center mt-4">
+                <img src="./assets/img/qr.png" alt="QR code" />
                 <img src="./assets/img/scribble.png" class="mt-3" alt="scribble underline" width="80%;">
               </p>
             </div>
@@ -565,7 +568,7 @@
 
       </div>
       <div class="copyright">
-        &copy; <strong><span>All Shades of Texas</span></strong>. All Rights Reserved
+        <strong><span>All Shades of Texas</span></strong> &copy; All Rights Reserved
       </div>
       <div class="credits">
         Website by <a href="https://github.com/jessica-calderon">Jessica Calderon</a>
