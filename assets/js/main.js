@@ -1,3 +1,30 @@
+// date picker stuff
+$('#datePicker').datepicker({
+  format: {
+      /*
+       * Say our UI should display a week ahead,
+       * but textbox should store the actual date.
+       * This is useful if we need UI to select local dates,
+       * but store in UTC
+       */
+      toDisplay: function (date, format, language) {
+          var m = moment(date);
+          return m.format('yyyy-MM-dd');
+      },
+      toValue: function (date, format, language) {
+          var m = moment(date);
+          return m.toISOString();
+      }
+  }
+});
+
+$('#datePicker').on('change', function() {
+ $('.datepicker').val($('#datePicker').val());
+});
+// $('.datepicker').datepicker({
+//     format: 'yyyy-MM-dd',
+// });
+
 /* Sending Email from Contact Section */
 (function () {
   emailjs.init("aRO8N19pDBgGnZSmm");

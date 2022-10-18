@@ -2,17 +2,17 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #444444;
 }
 
 a {
   text-decoration: none;
-  color: #03507c;
+  color: #3da3ec;
 }
 
 a:hover {
-  color: #ffc56e;
+  color: #d23030;
   text-decoration: none;
 }
 
@@ -22,7 +22,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Gelasio', serif;
 }
 
 /*--------------------------------------------------------------
@@ -35,7 +35,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #03507c;
+  background: #3da3ec;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -49,7 +49,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #ffc064;
+  background: #d23030;
   color: #fff;
 }
 
@@ -80,7 +80,7 @@ h6 {
 }
 
 #topbar i {
-  color: #ffb03b;
+  color: #d23030;
   line-height: 0;
 }
 
@@ -143,7 +143,7 @@ h6 {
 # Free Quote Button
 --------------------------------------------------------------*/
 .book-a-table-btn {
-  background: #03507c;
+  background: #3da3ec;
   color: #fff;
   border-radius: 50px;
   margin: 0 0 0 20px;
@@ -156,7 +156,7 @@ h6 {
 }
 
 .book-a-table-btn:hover {
-  background: #ffa012;
+  background: #d23030;
   color: #fff;
 }
 
@@ -214,7 +214,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #ffb03b;
+  color: #d23030;
 }
 
 .navbar .dropdown ul {
@@ -251,7 +251,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #ffb03b;
+  color: #d23030;
 }
 
 .navbar .dropdown:hover>ul {
@@ -348,7 +348,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #ffb03b;
+  color: #d23030;
 }
 
 .navbar-mobile .getstarted,
@@ -383,7 +383,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #ffb03b;
+  color: #d23030;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -442,7 +442,7 @@ h6 {
 }
 
 #about h2 span {
-  color: #ffb03b;
+  color: #d23030;
 }
 
 #about p {
@@ -522,12 +522,12 @@ h6 {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   color: #fff;
-  border: 2px solid #03507c;
+  border: 2px solid #3da3ec;
 }
 
 #about .btn-menu:hover,
 #about .btn-book:hover {
-  background: #03507c;
+  background: #3da3ec;
   color: #fff;
 }
 
@@ -572,7 +572,7 @@ section {
 }
 
 .section-title h2 span {
-  color: #ffb03b;
+  color: #d23030;
 }
 
 .section-title p {
@@ -593,7 +593,7 @@ section {
   background: #fffaf3;
 }
 .about span {
-  color: #03507c;
+  color: #3da3ec;
 }
 
 .about .content {
@@ -633,7 +633,7 @@ section {
 
 .about .content ul i {
   font-size: 20px;
-  color: #ffb03b;
+  color: #d23030;
   position: absolute;
   left: 0;
   top: 2px;
@@ -654,7 +654,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#ffb03b 50%, rgba(255, 176, 59, 0.4) 52%);
+  background: radial-gradient(#d23030 50%, rgba(255, 176, 59, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -702,7 +702,7 @@ section {
 }
 
 .about .play-btn:hover::after {
-  border-left: 15px solid #ffb03b;
+  border-left: 15px solid #d23030;
   transform: scale(20);
 }
 
@@ -812,7 +812,7 @@ li {
 }
 
 .why-us .box:hover {
-  background: #03507c;
+  background: #3da3ec;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
@@ -870,7 +870,7 @@ li {
 .events .event-item h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #ffb03b;
+  color: #d23030;
 }
 
 .events .event-item ul {
@@ -885,7 +885,7 @@ li {
 .events .event-item ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #ffb03b;
+  color: #d23030;
 }
 
 .events .event-item p:last-child {
@@ -906,7 +906,7 @@ li {
 }
 
 .events .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffb03b;
+  background-color: #d23030;
 }
 /*--------------------------------------------------------------
 # Gallery
@@ -994,7 +994,7 @@ li {
 }
 
 .testimonials .testimonial-item .stars {
-  color: #ffb03b;
+  color: #d23030;
   margin-bottom: 10px;
 }
 
@@ -1036,7 +1036,7 @@ li {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ffb03b;
+  background-color: #d23030;
 }
 
 @media (min-width: 992px) {
@@ -1062,7 +1062,7 @@ li {
 
 .contact .info i {
   font-size: 20px;
-  color: #ffb03b;
+  color: #d23030;
   float: left;
   width: 44px;
   height: 44px;
@@ -1091,7 +1091,7 @@ li {
 }
 
 .contact .info:hover i {
-  background: #ffb03b;
+  background: #d23030;
   color: #fff;
 }
 
@@ -1160,7 +1160,7 @@ li {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #03507c;
+  background: #3da3ec;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1199,7 +1199,7 @@ li {
   width: 40%;
 }
 .text-yellow {
-  color: #ffb03b;
+  color: #d23030;
 }
 /*--------------------------------------------------------------
 # Footer
@@ -1216,7 +1216,7 @@ li {
 #footer h3 {
   font-size: 36px;
   font-weight: 700;
-  color: #ffb03b;
+  color: #d23030;
   position: relative;
   padding: 0;
   margin: 0 0 15px 0;
@@ -1249,7 +1249,7 @@ li {
 }
 
 #footer .social-links a:hover {
-  background: #ffb03b;
+  background: #d23030;
 }
 
 #footer .copyright {
