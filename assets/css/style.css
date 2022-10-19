@@ -2,7 +2,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #444444;
 }
 
@@ -12,7 +12,7 @@ a {
 }
 
 a:hover {
-  color: #F15A29;
+  color: #f15a29;
   text-decoration: none;
 }
 
@@ -22,7 +22,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Gelasio', serif;
+  font-family: "Gelasio", serif;
 }
 
 /*--------------------------------------------------------------
@@ -49,7 +49,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #F15A29;
+  background: #f15a29;
   color: #fff;
 }
 
@@ -80,7 +80,7 @@ h6 {
 }
 
 #topbar i {
-  color: #F15A29;
+  color: #f15a29;
   line-height: 0;
 }
 
@@ -134,9 +134,14 @@ h6 {
 }
 
 #header .logo img {
-  padding: 0;
   margin: 0;
   max-height: 40px;
+}
+
+@media screen and (max-width: 420px) {
+  #header .logo img {
+    width: 75px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -156,7 +161,7 @@ h6 {
 }
 
 .book-a-table-btn:hover {
-  background: #F15A29;
+  background: #f15a29;
   color: #fff;
 }
 
@@ -213,8 +218,8 @@ h6 {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover>a {
-  color: #F15A29;
+.navbar li:hover > a {
+  color: #f15a29;
 }
 
 .navbar .dropdown ul {
@@ -250,11 +255,11 @@ h6 {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
-  color: #F15A29;
+.navbar .dropdown ul li:hover > a {
+  color: #f15a29;
 }
 
-.navbar .dropdown:hover>ul {
+.navbar .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -266,7 +271,7 @@ h6 {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover>ul {
+.navbar .dropdown .dropdown:hover > ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -278,7 +283,7 @@ h6 {
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover>ul {
+  .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
 }
@@ -317,7 +322,6 @@ h6 {
   z-index: 0;
 }
 
-
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
   top: 15px;
@@ -347,8 +351,8 @@ h6 {
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover>a {
-  color: #F15A29;
+.navbar-mobile li:hover > a {
+  color: #f15a29;
 }
 
 .navbar-mobile .getstarted,
@@ -382,11 +386,11 @@ h6 {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
-  color: #F15A29;
+.navbar-mobile .dropdown ul li:hover > a {
+  color: #f15a29;
 }
 
-.navbar-mobile .dropdown>.dropdown-active {
+.navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
 
@@ -442,7 +446,7 @@ h6 {
 }
 
 #about h2 span {
-  color: #F15A29;
+  color: #f15a29;
 }
 
 #about p {
@@ -572,7 +576,7 @@ section {
 }
 
 .section-title h2 span {
-  color: #F15A29;
+  color: #f15a29;
 }
 
 .section-title p {
@@ -622,7 +626,7 @@ section {
   padding: 0;
 }
 
-.about .content ul li+li {
+.about .content ul li + li {
   margin-top: 15px;
 }
 
@@ -633,7 +637,7 @@ section {
 
 .about .content ul i {
   font-size: 20px;
-  color: #F15A29;
+  color: #f15a29;
   position: absolute;
   left: 0;
   top: 2px;
@@ -654,7 +658,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#F15A29 50%, rgba(255, 176, 59, 0.4) 52%);
+  background: radial-gradient(#f15a29 50%, rgba(255, 176, 59, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -702,7 +706,7 @@ section {
 }
 
 .about .play-btn:hover::after {
-  border-left: 15px solid #F15A29;
+  border-left: 15px solid #f15a29;
   transform: scale(20);
 }
 
@@ -727,7 +731,6 @@ li {
   list-style: none;
 }
 @media (max-width: 1024px) {
-
   .about .content,
   .about .accordion-list {
     padding-left: 0;
@@ -870,7 +873,7 @@ li {
 .events .event-item h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #F15A29;
+  color: #f15a29;
 }
 
 .events .event-item ul {
@@ -885,7 +888,7 @@ li {
 .events .event-item ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #F15A29;
+  color: #f15a29;
 }
 
 .events .event-item p:last-child {
@@ -906,7 +909,7 @@ li {
 }
 
 .events .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #F15A29;
+  background-color: #f15a29;
 }
 /*--------------------------------------------------------------
 # Gallery
@@ -932,9 +935,9 @@ li {
   background-color: #fffaf3;
 }
 @media screen and (min-width: 728px) {
-#portfolioContainer .gallery img {
-  max-height: 200px;
-}
+  #portfolioContainer .gallery img {
+    max-height: 200px;
+  }
 }
 /*--------------------------------------------------------------
 # Testimonials
@@ -994,7 +997,7 @@ li {
 }
 
 .testimonials .testimonial-item .stars {
-  color: #F15A29;
+  color: #f15a29;
   margin-bottom: 10px;
 }
 
@@ -1036,7 +1039,7 @@ li {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #F15A29;
+  background-color: #f15a29;
 }
 
 @media (min-width: 992px) {
@@ -1062,7 +1065,7 @@ li {
 
 .contact .info i {
   font-size: 20px;
-  color: #F15A29;
+  color: #f15a29;
   float: left;
   width: 44px;
   height: 44px;
@@ -1091,7 +1094,7 @@ li {
 }
 
 .contact .info:hover i {
-  background: #F15A29;
+  background: #f15a29;
   color: #fff;
 }
 
@@ -1159,7 +1162,7 @@ li {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type="submit"] {
   background: #3da3ec;
   border: 0;
   padding: 10px 24px;
@@ -1168,7 +1171,7 @@ li {
   border-radius: 50px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type="submit"]:hover {
   background: #ffa012;
 }
 
@@ -1199,7 +1202,7 @@ li {
   width: 40%;
 }
 .text-yellow {
-  color: #F15A29;
+  color: #f15a29;
 }
 /*--------------------------------------------------------------
 # Footer
@@ -1216,7 +1219,7 @@ li {
 #footer h3 {
   font-size: 36px;
   font-weight: 700;
-  color: #F15A29;
+  color: #f15a29;
   position: relative;
   padding: 0;
   margin: 0 0 15px 0;
@@ -1249,7 +1252,7 @@ li {
 }
 
 #footer .social-links a:hover {
-  background: #F15A29;
+  background: #f15a29;
 }
 
 #footer .copyright {
