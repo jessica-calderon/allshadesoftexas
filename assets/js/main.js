@@ -1,4 +1,3 @@
-
 /* Sending Email from Contact Section */
 (function () {
   emailjs.init("aRO8N19pDBgGnZSmm");
@@ -8,9 +7,7 @@ function sendmail() {
   event.preventDefault();
   let fullName = document.getElementById("name").value;
   let userEmail = document.getElementById("email").value;
-  // let userSubject = document.getElementById("subject").value;
   let userNumber = document.getElementById("number").value;
-  // let contactPref = document.getElementById("contact_pref").value;
   let userTopic = document.getElementById("topic").value;
   let userMessage = document.getElementById("message").value;
   let datePref = document.getElementById("datePicker").value;
@@ -22,14 +19,12 @@ function sendmail() {
     from_name: fullName,
     from_email: userEmail,
     from_number: userNumber,
-    // subject: userSubject,
-    // contactPreference: contactPref,
     topic: userTopic,
     message: userMessage,
     datePreference: datePref,
     timePreference: timePref,
     info1: additionalInfo,
-    info2: additionalInfo2
+    info2: additionalInfo2,
   };
 
   emailjs
@@ -128,7 +123,6 @@ function sendmail() {
       behavior: "smooth",
     });
   };
-
 
   /**
    * Toggle .header-scrolled class to #header when page is scrolled
@@ -280,7 +274,7 @@ function sendmail() {
   /**
    * Testimonials slider
    */
-  new Swiper(".events-slider", {
+  new Swiper(".gallery-slider", {
     speed: 600,
     loop: true,
     autoplay: {
