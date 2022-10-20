@@ -20,11 +20,6 @@ A front-end website for Texas-based commercial business All Shades of Texas.
 
 HTML, CSS, Bootstrap, JavaScript
 
-## [License](#table-of-contents)
-
-The application is covered under the following license: <br>
-    [No license](<https://choosealicense.com/licenses/No> license)
-
 ## [Usage](#table-of-contents)
 
 Customers can learn about All Shades of Texas, their services, and contact them via the website.
@@ -40,7 +35,7 @@ link
 ## [Application Preview](#table-of-contents)
 
 Click the image to see the live demo.
-<a href='n' alt='preview video link'><img src='n'></a>
+<a href='n' alt='preview video link'><img src='./assets/img/preview.png'></a>
 
 ## [Questions](#table-of-contents)
 
