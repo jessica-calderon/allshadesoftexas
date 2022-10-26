@@ -90,7 +90,10 @@ h6 {
   padding-left: 5px;
 }
 #topbar .link-light a {
-  color: white;
+  color: #DD4F41;
+}
+#topbar a:hover {
+  color: #fff;
 }
 /*--------------------------------------------------------------
 # Header
@@ -1200,6 +1203,9 @@ li {
 }
 .text-yellow {
   color: #FBB043;
+}
+.text-red {
+  color: #DD4F41;
 }
 .w-40 {
   width: 40%;
