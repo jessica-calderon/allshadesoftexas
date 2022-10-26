@@ -1207,6 +1207,12 @@ li {
 .text-red {
   color: #DD4F41;
 }
+.link-red a {
+  color: #DD4F41;
+}
+.link-red a:hover {
+  color: #000;
+}
 .w-40 {
   width: 40%;
 }
@@ -1217,6 +1223,7 @@ li {
 #footer {
   background: #35322d;
   background: url(../img/footer.jpg) center center no-repeat;
+  background-size: cover;
   color: #fff;
   font-size: 14px;
   text-align: center;
