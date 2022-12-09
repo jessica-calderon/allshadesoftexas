@@ -35,7 +35,7 @@ link
 ## [Application Preview](#table-of-contents)
 
 Click the image to see the live demo.
-<a href='n' alt='preview video link'><img src='./assets/img/preview.png'></a>
+<a href='https://www.allshadesoftexas.net' alt='preview'><img src='./assets/img/index.png'></a>
 
 ## [Questions](#table-of-contents)
 
