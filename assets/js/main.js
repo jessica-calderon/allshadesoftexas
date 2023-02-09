@@ -1,52 +1,63 @@
 /* Sending Email from Contact Section */
+
 (function () {
-  emailjs.init("aRO8N19pDBgGnZSmm");
+  emailjs.init("giQ71sbYL43jliyHl");
 })();
 /* emailJS stuff */
 function sendmail() {
   event.preventDefault();
+  const alertContainer = document.getElementById("alert-container");
   let fullName = document.getElementById("name").value;
   let userEmail = document.getElementById("email").value;
   let userNumber = document.getElementById("number").value;
   let userTopic = document.getElementById("topic").value;
   let userMessage = document.getElementById("message").value;
   let datePref = document.getElementById("datePicker").value;
-  let timePref = document.getElementById("time").value;
+  // let timePref = document.getElementById("time").value;
   let additionalInfo = document.getElementById("info").value;
   let additionalInfo2 = document.getElementById("info2").value;
 
-  var contactParams = {
+  if (!fullName || !userEmail || !userNumber || !userTopic || !userMessage || !datePref || !additionalInfo || !additionalInfo2) {
+    alertContainer.innerHTML = `
+      <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <strong>Error!</strong> All fields are required.
+      </div>
+    `;
+    alertContainer.style.display = "block";
+    return;
+  }
+
+  const contactParams = {
     from_name: fullName,
     from_email: userEmail,
     from_number: userNumber,
     topic: userTopic,
     message: userMessage,
     datePreference: datePref,
-    timePreference: timePref,
+    // timePreference: timePref,
     info1: additionalInfo,
     info2: additionalInfo2,
   };
 
   emailjs
-    .send("service_94go286", "template_2fnrdw5", contactParams)
-    .then(function (res) {})
-
-    .then(
-      // display message sent alert on successful send
-      function (response) {
-        document
-          .getElementById("messageSent")
-          .className.replace(/(?:^|\s)collapse(?!\S)/g, "");
-        document.getElementById("messageSent").className += "show";
-      },
-      function (error) {
-        // display send error alert on unsuccessful message send
-        document
-          .getElementById("messageError")
-          .className.replace(/(?:^|\s)collapse(?!\S)/g, "");
-        document.getElementById("messageError").className += "show";
-      }
-    );
+    .send("service_izi4ue9", "template_1gav2e8", contactParams)
+    .then(() => {
+      alertContainer.innerHTML = `
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+          <strong>Success!</strong> Your message has been sent. We'll get back to you as soon as possible.
+        </div>
+      `;
+      alertContainer.style.display = "block";
+    })
+    .catch((error) => {
+      console.error("Failed to send message", error);
+      alertContainer.innerHTML = `
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+          <strong>Error!</strong> Failed to send message, please try again later.
+        </div>
+      `;
+      alertContainer.style.display = "block";
+    });
 }
 
 // End email.js section

@@ -202,13 +202,20 @@
             <p>
             <h5>Contact us for a free estimate today!</h5>
             </p>
-
+            <hr class="bg-dark">
+            <div class="text-center mt-2">
+              <a href="./portfolio.html" alt="Photo Portfolio Page">
+                <span class="h2">Click Here to See
+                  <strong>Our Photo Gallery</strong>
+                </span>
+              </a>
+            </div>
           </div>
-          <hr class="bg-dark">
+          <!-- <hr class="bg-dark">
           <p class="h4 text-center">Look for us on</p>
           <img src="./assets/img/angiesList.png"
             alt="Green chat bubble with Angie's list text in white inside and five green stars below the chat bubble"
-            class="mx-auto d-block" width="150px;" />
+            class="mx-auto d-block" width="150px;" /> -->
 
         </div>
 
@@ -291,7 +298,6 @@
               </div>
             </div><!-- End gallery item -->
 
-
             <div class="swiper-slide">
               <div class="row gallery-item">
                 <div class="">
@@ -299,12 +305,16 @@
                 </div>
               </div>
             </div><!-- End gallery item -->
-
           </div>
           <div class="swiper-pagination"></div>
         </div>
-        <div class="text-center mt-2"><a href="./portfolio.html" alt="Photo Portfolio Page"><span class="h4">Click Here
-              to See <strong>More</strong></span></a></div>
+      </div>
+      <div class="mt-4 d-flex align-items-center justify-content-center">
+        <a href="./portfolio.html" alt="Photo Portfolio Page">
+          <span class="h2 ">Click <strong>Here</strong> to See
+            <strong>Our Photo Gallery</strong>
+          </span>
+        </a>
       </div>
     </section><!-- End Quick Portfolio Section -->
     <!-- ======= Contact Section ======= -->
@@ -362,9 +372,10 @@
           <form class="mb-5 p-4 mt-3 email-form" method="post" role="form" id="contactForm" name="contactForm">
             <h3 class="p-1 mx-auto"><strong class="text-red">Contact Us for a Free Estimate!</strong><br>
               Call Us at <strong class="link-red"><a href="tel:2104400007">(210) 440-0007</a></strong></h3>
-            <h5 class="p-1 mb-2 mx-auto">Or Send Us A Message and Our Representatives Will Get Back To You As Soon As Possible</h5>
+            <h5 class="p-1 mb-2 mx-auto">Or Send Us A Message and Our Representatives Will Get Back To You As Soon As
+              Possible</h5>
             <div class="row">
-              <div class="col-md-6 form-group mt-2">
+              <div class="col-md-6 form-group">
                 <input type="text" class="form-control" name="fullname" id="name" placeholder="Your name *">
               </div>
               <div class="col-md-6 form-group ">
@@ -378,8 +389,8 @@
               <label for="Topic" class="col-form-label"><i class='bx bxs-time-five'></i> Preferred Contact
                 Date</label>
               <div id="date-picker" class="p-1 md-form md-outline input-with-post-icon datepicker" inline="true">
-                <input type="date" id="datePicker" name="datePicker" value="2022-10-22" class="w-100 p-2">
-<!-- 
+                <input type="date" id="datePicker" name="datePicker" value="" class="w-100 p-2">
+                <!-- 
                 <select class="mt-2 custom-select form-select" name="time" id="time">
                   <option disabled selected> -- Select a Time -- </option>
                   <option value="Morning">Morning</option>
@@ -436,18 +447,7 @@
               </div>
           </form>
           <!-- Message Sent Alert (display on successful message send) -->
-          <div class="alert alert-success collapse mt-3" role="alert" id="messageSent">
-            <span>
-              <p>Message Sent Successfully! We'll be in touch soon, thanks!</p>
-            </span>
-          </div>
-          <!-- Error Sending Message Alert (display on error) -->
-          <div class="alert alert-error collapse mt-3" role="alert" id="messageError">
-            <span>
-              <p>Oops..There was an error sending your message. Please try again, give us a call, or send us an
-                email! Thanks!</p>
-            </span>
-          </div>
+          <div id="alert-container" style="display: none;"></div>
         </div>
 
     </section>
@@ -484,7 +484,8 @@
       <div class="social-links">
         <a href="mailto:allshadesoftexas@yahoo.com" class="email"><i class='bx bxs-envelope'></i></a>
         <a href="tel:2104400007" class="phone"><i class="bx bx-phone"></i></a>
-        <a href="https://facebook.com/allshadesoftexas" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
+        <a href="https://facebook.com/allshadesoftexas" class="facebook" target="_blank"><i
+            class="bx bxl-facebook"></i></a>
 
       </div>
       <div class="copyright">
