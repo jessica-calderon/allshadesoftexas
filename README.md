@@ -1,44 +1,27 @@
-# All Shades of Texas
+# React + TypeScript + Vite
 
-![badge](https://img.shields.io/badge/Made%20with%20%E2%99%A5%20by%20-Jessica%20E.%20Calderon-blueviolet)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Table of Contents
+Currently, two official plugins are available:
 
-* [Description](#description)
-* [Built With](#languages)
-* [Installation](#installation)
-* [Contributing](#contributing)
-* [Usage](#usage)
-* [Questions](#questions)
-* [Application Preview](#application-preview)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## [Description](#table-of-contents)
+## Expanding the ESLint configuration
 
-A front-end website for Texas-based commercial business All Shades of Texas.
+If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-## [Languages](#table-of-contents)
+- Configure the top-level `parserOptions` property like this:
 
-HTML, CSS, Bootstrap, JavaScript
+```js
+   parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    project: ['./tsconfig.json', './tsconfig.node.json'],
+    tsconfigRootDir: __dirname,
+   },
+```
 
-## [Usage](#table-of-contents)
-
-Customers can learn about All Shades of Texas, their services, and contact them via the website.
-
-## [Contributing](#table-of-contents)
-
-Thank you for your interest in contributing to this project, however, I am currently not accepting third party contributions.
-
-## [Installation](#table-of-contents)
-
-link
-
-## [Application Preview](#table-of-contents)
-
-Click the image to see the live demo.
-<a href='https://www.allshadesoftexas.net' alt='preview'><img src='./assets/img/index.png'></a>
-
-## [Questions](#table-of-contents)
-
-Questions? Please contact me at the following links: <br>
-[GitHub](https://github.com/jessica-calderon) <br>
-[Email: calderonjessica13@yahoo.com](mailto:calderonjessica13@yahoo.com)
+- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
+- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
+- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
