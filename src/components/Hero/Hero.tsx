@@ -1,17 +1,35 @@
-import React from "react";
+import { useEffect, useState } from "react";
+import img1 from "../../assets/solar/img1.png"
+import img2 from "../../assets/solar/img2.png";
+import img3 from "../../assets/solar/img3.png";
+import img4 from "../../assets/solar/img4.png";
+import img5 from "../../assets/solar/img5.png";
 
 function Hero() {
+    const images = [img1, img2, img3, img4, img5];
+    const [currentImage, setCurrentImage] = useState(0);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentImage((prevImage) => (prevImage + 1) % images.length);
+        }, 5000); // Change image every 5 seconds
+
+        return () => clearInterval(interval);
+    }, []);
+
     return (
         <div>
-            {/* Slideshow Placeholder */}
-            <div className='relative h-96 bg-gray-300 mt-8'>
-                {/* Slide Image Placeholder */}
-                <img src='https://via.placeholder.com/1600x600' alt='Placeholder Slide' className='w-full h-full object-cover' />
+            {/* Slideshow */}
+            <div className="relative h-96 overflow-hidden">
+                <div className="relative w-full h-full">
+                    <img src={images[currentImage]} alt="Slideshow Image" className="w-full h-full object-cover" />
+                    <div className="absolute inset-0 bg-black opacity-70"></div>
+                </div>
 
                 {/* Overlay Text and Button */}
-                <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white'>
-                    <h2 className='text-3xl mb-4'>All Shades of Texas</h2>
-                    <button className='hover:bg-[rgb(251,175,68)] p-2 rounded'>Contact Us</button>
+                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white">
+                    <h2 className="text-3xl mb-4">All Shades of Texas</h2>
+                    <button className="hover:bg-[rgb(251,175,68)] p-2 rounded">Contact Us</button>
                 </div>
             </div>
         </div>

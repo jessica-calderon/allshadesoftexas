@@ -1,12 +1,27 @@
-import React from "react";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import "./App.css";
 import LandingPage from "./components/LandingPage/LandingPage";
+import Navbar from "./components/Navbar/Navbar";
+import AboutUs from "./pages/AboutUs/AboutUs";
+import Appointment from "./pages/Appointment/Appointment";
+import Contact from "./pages/Contact/Contact";
+import ServicesPage from "./pages/Services/Services";
 
 function App() {
     return (
-        <div className='App'>
-            <LandingPage />
-        </div>
+        <Router>
+            <div className='App'>
+                <Navbar />
+                {/* Define your Route components */}
+                <Routes>
+                    <Route path='/' element={<LandingPage />} />
+                    <Route path='/services' element={<ServicesPage />} />
+                    <Route path='/about-us' element={<AboutUs />} />
+                    <Route path='/request-an-appointment' element={<Appointment />} />
+                    <Route path='/contact-us' element={<Contact />} />
+                </Routes>
+            </div>
+        </Router>
     );
 }
 
