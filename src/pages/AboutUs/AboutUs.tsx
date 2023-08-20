@@ -1,6 +1,6 @@
 import React from "react";
 import { AiOutlineFileText } from "react-icons/ai";
-import { FaSun, FaCheck, FaDollarSign, FaFlag, FaCreditCard } from "react-icons/fa";
+import { FaSun, FaCheck, FaDollarSign, FaMoneyBill, FaSchool, FaFlag, FaCreditCard } from "react-icons/fa";
 
 function AboutUs() {
     return (
@@ -60,11 +60,11 @@ function AboutUs() {
                     <h3 className='text-2xl font-bold mb-4'>Payment Methods</h3>
                     <ul className='list-disc pl-6 mb-6'>
                         <li className='flex items-center'>
-                            <FaCheck className='text-green-500 mr-2' />
+                            <FaMoneyBill className='mr-2' />
                             Cash
                         </li>
                         <li className='flex items-center'>
-                            <FaCheck className='text-green-500 mr-2' />
+                            <FaSchool className='mr-2' />
                             Check
                         </li>
                         <li className='flex items-center'>

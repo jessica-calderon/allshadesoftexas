@@ -48,6 +48,7 @@ function ServicesPage() {
             </div>
 
             <div className='max-w-5xl mx-auto p-8 bg-white rounded-lg shadow-md mb-8 w-[65%]'>
+                
                 <div className='flex'>
                     <div
                         className='bg-gray-800 text-white p-4 border rounded-md cursor-pointer hover:bg-gray-700 w-full'

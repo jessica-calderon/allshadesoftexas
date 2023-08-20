@@ -47,8 +47,8 @@ function Navbar() {
             </div>
 
             {/* Navigation Menu */}
-            <div className={`${isMenuOpen ? "block" : "hidden"} lg:block lg:sticky lg:top-16 bg-gray-700 p-4 z-30`}>
-                <div className={`lg:flex ${isMenuOpen ? "flex-col" : "flex-row"}`}>
+            <div className={`${isMenuOpen ? "block" : "hidden"} lg:block lg:sticky lg:top-16 bg-gray-700 opacity-90 p-4 z-50`}>
+                <div className={`lg:flex ${isMenuOpen ? "flex-col" : "flex-row"} items-center justify-center`}>
                     {[
                         { text: "Home", link: "/" },
                         // { text: "Testimonials", link: "/testimonials" },
