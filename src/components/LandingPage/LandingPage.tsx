@@ -13,7 +13,6 @@ const LandingPage: React.FC = () => {
             <Blurbs />
             <QRComponent />
             <MapComponent />
-            <Footer />
         </>
     );
 };

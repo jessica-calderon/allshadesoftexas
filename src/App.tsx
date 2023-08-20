@@ -6,6 +6,7 @@ import AboutUs from "./pages/AboutUs/AboutUs";
 import Appointment from "./pages/Appointment/Appointment";
 import Contact from "./pages/Contact/Contact";
 import ServicesPage from "./pages/Services/Services";
+import Footer from './components/Footer/Footer';
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
                     <Route path='/request-an-appointment' element={<Appointment />} />
                     <Route path='/contact-us' element={<Contact />} />
                 </Routes>
+                <Footer />
             </div>
         </Router>
     );

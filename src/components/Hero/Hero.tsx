@@ -35,7 +35,7 @@ function Hero() {
                 {/* Overlay Text and Button */}
                 <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white'>
                     <h2 className='text-3xl mb-4'>All Shades of Texas</h2>
-                    <button onClick={handleContactUsClick} className='hover:bg-[rgb(251,175,68)] p-2 rounded'>
+                    <button onClick={handleContactUsClick} className='bg-[rgb(251,175,68)] hover:bg-transparent p-2 rounded'>
                         Contact Us
                     </button>
                 </div>
