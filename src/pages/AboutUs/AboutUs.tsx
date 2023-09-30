@@ -1,10 +1,8 @@
-import React from "react";
-import { AiOutlineFileText } from "react-icons/ai";
-import { FaSun, FaCheck, FaDollarSign, FaMoneyBill, FaSchool, FaFlag, FaCreditCard } from "react-icons/fa";
+import { FaCreditCard, FaDollarSign, FaMoneyBill, FaMoneyCheckAlt, FaSun } from "react-icons/fa";
 
 function AboutUs() {
     return (
-        <section className='px-10 flex h-screen items-center justify-center bg-gray-500'>
+        <section className='px-10 flex h-screen pt-10 items-start justify-start bg-gray-500'>
             <div className='container mx-auto grid grid-cols-3 gap-6'>
                 {/* Column 1 */}
                 <div className='bg-gray-600 p-4 rounded-md'>
@@ -56,7 +54,7 @@ function AboutUs() {
                 </div>
 
                 {/* Column 3 */}
-                <div className='bg-gray-400 justify-center p-4 rounded-md'>
+                <div className='bg-gray-800 justify-center p-4 rounded-md'>
                     <h3 className='text-2xl font-bold mb-4'>Payment Methods</h3>
                     <ul className='list-disc pl-6 mb-6'>
                         <li className='flex items-center'>
@@ -64,15 +62,15 @@ function AboutUs() {
                             Cash
                         </li>
                         <li className='flex items-center'>
-                            <FaSchool className='mr-2' />
+                            <FaMoneyCheckAlt className='mr-2' />
                             Check
                         </li>
                         <li className='flex items-center'>
-                            <FaCreditCard className='text-green-500 mr-2' />
+                            <FaCreditCard className='mr-2' />
                             Credit Card
                         </li>
                         <li className='flex items-center'>
-                            <FaDollarSign className='text-green-500 mr-2' />
+                            <FaDollarSign className='mr-2' />
                             Money Order
                         </li>
                     </ul>
@@ -81,7 +79,6 @@ function AboutUs() {
                         <p>Limited Lifetime Warranty</p>
                         <p>10% Military Discount</p>
                         <span className='flex w-full justify-center mr-2'>
-                            <AiOutlineFileText className='text-blue-500 text-2xl mr-2' />
                             Contact us for a free estimate
                         </span>
                         {/* Insert contact button here */}

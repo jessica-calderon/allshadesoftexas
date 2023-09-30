@@ -32,9 +32,9 @@ function ServicesPage() {
     };
 
     return (
-        <section className='flex flex-col items-center justify-center h-full py-10 bg-slate-800'>
-            <div className='max-w-5xl mx-auto p-8 sm:p-8 bg-white rounded-lg shadow-md mb-8'>
-                <div className='grid grid-cols-2 gap-4'>
+        <section className='flex flex-col w-screen items-center justify-center h-full py-10 bg-slate-800'>
+            <div className='mx-auto p-8 sm:p-8 bg-white rounded-lg shadow-md mb-8'>
+            <div className='grid grid-cols-2 gap-4'>
                     {services.map((service, index) => (
                         <div
                             key={index}
@@ -47,7 +47,7 @@ function ServicesPage() {
                 </div>
             </div>
 
-            <div className='max-w-5xl mx-auto p-8 bg-white rounded-lg shadow-md mb-8 w-[65%]'>
+            <div className=' mx-auto p-8 bg-white rounded-lg shadow-md mb-8 w-[65%]'>
                 
                 <div className='flex'>
                     <div

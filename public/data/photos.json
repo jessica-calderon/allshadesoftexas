@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "Enclosed Patio 1",
+        "url": "path/to/enclosed_patio_1.jpg",
+        "category": "Enclosed Patios/Porches"
+    },
+    {
+        "id": 2,
+        "title": "Sun Room 1",
+        "url": "path/to/sun_room_1.jpg",
+        "category": "Sun Rooms"
+    },
+    {
+        "id": 3,
+        "title": "Solar Screen 1",
+        "url": "path/to/solar_screen_1.jpg",
+        "category": "Solar Screens"
+    },
+    {
+        "id": 4,
+        "title": "Snap Lock Roof 1",
+        "url": "path/to/snap_lock_roof_1.jpg",
+        "category": "Snaps Lock Roof"
+    },
+    {
+        "id": 5,
+        "title": "Storm Door 1",
+        "url": "path/to/storm_door_1.jpg",
+        "category": "Storm Doors"
+    },
+    {
+        "id": 6,
+        "title": "Screen Door 1",
+        "url": "path/to/screen_door_1.jpg",
+        "category": "Screen Doors"
+    },
+    {
+        "id": 7,
+        "title": "Motorized Roller Shade 1",
+        "url": "path/to/motorized_roller_shade_1.jpg",
+        "category": "Roller Shades - Motorized & Manual"
+    },
+    {
+        "id": 8,
+        "title": "Retractable Garage Slider 1",
+        "url": "path/to/retractable_garage_slider_1.jpg",
+        "category": "Retractable Garage Sliders"
+    },
+    {
+        "id": 9,
+        "title": "Before/After 1",
+        "url": "path/to/before_after_1.jpg",
+        "category": "Before/After"
+    },
+    {
+        "id": 10,
+        "title": "Enclosed Patio 2",
+        "url": "path/to/enclosed_patio_2.jpg",
+        "category": "Enclosed Patios/Porches"
+    },
+    {
+        "id": 11,
+        "title": "Sun Room 2",
+        "url": "path/to/sun_room_2.jpg",
+        "category": "Sun Rooms"
+    },
+    {
+        "id": 12,
+        "title": "Solar Screen 2",
+        "url": "path/to/solar_screen_2.jpg",
+        "category": "Solar Screens"
+    }
+]

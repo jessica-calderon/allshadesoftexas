@@ -5,14 +5,15 @@ import img3 from "../../assets/solar/img3.png";
 import img4 from "../../assets/solar/img4.png";
 import img5 from "../../assets/solar/img5.png";
 import { useNavigate } from "react-router-dom";
+import logo from "../../assets/logo/logoTransparent.png";
 
 function Hero() {
     const images = [img1, img2, img3, img4, img5];
     const [currentImage, setCurrentImage] = useState(0);
     const navigate = useNavigate();
 
-    const handleContactUsClick = () => {
-        navigate("/contact-us");
+    const handleApptClick = () => {
+        navigate("/request-an-appointment");
     };
 
     useEffect(() => {
@@ -34,9 +35,12 @@ function Hero() {
 
                 {/* Overlay Text and Button */}
                 <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white'>
-                    <h2 className='text-3xl mb-4'>All Shades of Texas</h2>
-                    <button onClick={handleContactUsClick} className='bg-[rgb(251,175,68)] hover:bg-transparent p-2 rounded'>
-                        Contact Us
+                    {/* <h2 className='text-3xl mb-4'>All Shades of Texas</h2> */}
+                    <div className='mb-4'>
+                        <img src={logo} width={"200px"} />
+                    </div>
+                    <button onClick={handleApptClick} className='bg-[rgb(251,175,68)] hover:bg-transparent p-2 rounded'>
+                        Request an Appointment
                     </button>
                 </div>
             </div>

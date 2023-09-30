@@ -17,7 +17,7 @@ const services = [
 
 function Appointment() {
     return (
-        <div className='flex h-screen items-center justify-center bg-gray-500'>
+        <div className='flex h-screen w-screen py-8 justify-center bg-gray-500'>
             <div className='bg-white p-8 rounded-lg shadow-md w-[500px]'>
                 <h2 className='text-xl font-semibold mb-4 text-black'>Request an Appointment</h2>
                 <form className='space-y-4'>

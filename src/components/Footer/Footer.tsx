@@ -3,7 +3,7 @@ import { FaFacebook, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 
 const Footer: React.FC = () => {
     return (
-        <div className='bg-gray-900 text-white p-6'>
+        <div className='bg-gray-900 w-[100%] text-white p-6'>
             <div className='container mx-auto flex justify-between'>
                 {/* First Column */}
                 <div className='w-1/3 pr-6 border-r border-gray-700'>
