@@ -84,34 +84,76 @@
         "category": "Enclosed Patios/Porches"
     },
     {
-        "id": 2,
+        "id": 15,
         "title": "Sun Room 1",
-        "url": "path/to/sun_room_1.jpg",
+        "url": "./../src/assets/photos/sunrooms/img_1.jpg",
         "category": "Sun Rooms"
     },
     {
-        "id": 3,
-        "title": "Solar Screen 1",
-        "url": "path/to/solar_screen_1.jpg",
+        "id": 16,
+        "title": "Sun Room 2",
+        "url": "./../src/assets/photos/sunrooms/img_2.jpg",
+        "category": "Sun Rooms"
+    },
+    {
+        "id": 17,
+        "title": "Sun Room 3",
+        "url": "./../src/assets/photos/sunrooms/img_3.jpg",
+        "category": "Sun Rooms"
+    },
+    {
+        "id": 18,
+        "title": "Sun Room 4",
+        "url": "./../src/assets/photos/sunrooms/img_4.jpg",
+        "category": "Sun Rooms"
+    },
+    {
+        "id": 19,
+        "title": "Sun Room 5",
+        "url": "./../src/assets/photos/sunrooms/img_5.jpg",
+        "category": "Sun Rooms"
+    },
+    {
+        "id": 20,
+        "title": "Sun Room 6",
+        "url": "./../src/assets/photos/sunrooms/img_6.jpg",
+        "category": "Sun Rooms"
+    },
+    {
+        "id": 21,
+        "title": "Sun Room 7",
+        "url": "./../src/assets/photos/sunrooms/img_7.jpg",
+        "category": "Sun Rooms"
+    },
+    {
+        "id": 22,
+        "title": "Sun Room 8",
+        "url": "./../src/assets/photos/sunrooms/img_8.jpg",
         "category": "Solar Screens"
     },
     {
-        "id": 4,
-        "title": "Snap Lock Roof 1",
-        "url": "path/to/snap_lock_roof_1.jpg",
+        "id": 23,
+        "title": "Sun Room 9",
+        "url": "./../src/assets/photos/sunrooms/img_9.jpg",
         "category": "Snaps Lock Roof"
     },
     {
-        "id": 5,
-        "title": "Storm Door 1",
-        "url": "path/to/storm_door_1.jpg",
-        "category": "Storm Doors"
+        "id": 24,
+        "title": "Sun Room 10",
+        "url": "./../src/assets/photos/sunrooms/img_10.jpg",
+        "category": "Sun Rooms"
     },
     {
-        "id": 6,
-        "title": "Screen Door 1",
-        "url": "path/to/screen_door_1.jpg",
-        "category": "Screen Doors"
+        "id": 25,
+        "title": "Sun Room  11",
+        "url": "./../src/assets/photos/sunrooms/img_11.jpg",
+        "category": "Sun Rooms"
+    },
+    {
+        "id": 26,
+        "title": "Sun Room 12",
+        "url": "./../src/assets/photos/sunrooms/img_12.jpg",
+        "category": "Sun Rooms"
     },
     {
         "id": 7,

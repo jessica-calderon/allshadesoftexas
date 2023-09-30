@@ -1,9 +1,11 @@
+import img1 from '../../assets/photos/enclosed_sliders/img_1.jpg'
+import img2 from '../../assets/photos/enclosed_sliders/img_2.jpg'
+import img3 from '../../assets/photos/enclosed_sliders/img_3.jpg'
+
 const LatestWork = () => {
     // Placeholder images for latest work slideshow
     const latestWorkImages = [
-        "https://via.placeholder.com/300?text=Latest%20Work%201",
-        "https://via.placeholder.com/300?text=Latest%20Work%202",
-        "https://via.placeholder.com/300?text=Latest%20Work%203",
+        img1, img2, img3
     ];
 
     return (
