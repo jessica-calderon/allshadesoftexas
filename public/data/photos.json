@@ -2,7 +2,85 @@
     {
         "id": 1,
         "title": "Enclosed Patio 1",
-        "url": "path/to/enclosed_patio_1.jpg",
+        "url": "../../src/assets/photos/enclosed/img_1.jpg",
+        "category": "Enclosed Patios"
+    },
+    {
+        "id": 2,
+        "title": "Enclosed Patio 2",
+        "url": "../../src/assets/photos/enclosed/img_2.jpg",
+        "category": "Enclosed Patios/Porches"
+    },
+    {
+        "id": 3,
+        "title": "Enclosed Patio 3",
+        "url": "../../src/assets/photos/enclosed/img_3.jpg",
+        "category": "Enclosed Patios/Porches"
+    },
+    {
+        "id": 4,
+        "title": "Enclosed Patio 4",
+        "url": "../../src/assets/photos/enclosed/img_4.jpg",
+        "category": "Enclosed Patios/Porches"
+    },
+    {
+        "id": 5,
+        "title": "Enclosed Patio 5",
+        "url": "../../src/assets/photos/enclosed/img_5.jpg",
+        "category": "Enclosed Patios/Porches"
+    },
+    {
+        "id": 6,
+        "title": "Enclosed Patio 6",
+        "url": "../../src/assets/photos/enclosed/img_6.jpeg",
+        "category": "Enclosed Patios/Porches"
+    },
+    {
+        "id": 7,
+        "title": "Enclosed Patio 7",
+        "url": "../../src/assets/photos/enclosed/img_7.jpg",
+        "category": "Enclosed Patios"
+    },
+    {
+        "id": 8,
+        "title": "Enclosed Patio 8",
+        "url": "../../src/assets/photos/enclosed/img_8.jpg",
+        "category": "Enclosed Patios/Porches"
+    },
+    {
+        "id": 9,
+        "title": "Enclosed Patio 9",
+        "url": "../../src/assets/photos/enclosed/img_9.jpg",
+        "category": "Enclosed Patios/Porches"
+    },
+    {
+        "id": 10,
+        "title": "Enclosed Patio 10",
+        "url": "../../src/assets/photos/enclosed/img_10.jpg",
+        "category": "Enclosed Patios/Porches"
+    },
+    {
+        "id": 11,
+        "title": "Enclosed Patio 11",
+        "url": "../../src/assets/photos/enclosed/img_11.jpg",
+        "category": "Enclosed Patios/Porches"
+    },
+    {
+        "id": 12,
+        "title": "Enclosed Patio 12",
+        "url": "../../src/assets/photos/enclosed/img_12.jpg",
+        "category": "Enclosed Patios/Porches"
+    },
+    {
+        "id": 13,
+        "title": "Enclosed Patio 13",
+        "url": "../../src/assets/photos/enclosed/img_13.jpg",
+        "category": "Enclosed Patios/Porches"
+    },
+    {
+        "id": 14,
+        "title": "Enclosed Patio 14",
+        "url": "../../src/assets/photos/enclosed/img_14.jpg",
         "category": "Enclosed Patios/Porches"
     },
     {
