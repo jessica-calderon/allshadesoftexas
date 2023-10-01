@@ -156,6 +156,43 @@
         "category": "Sun Rooms"
     },
     {
+        "id": 27,
+        "title": "Sun Screens 1",
+        "url": "./../src/assets/photos/solar/img1.png",
+        "category": "Solar Screens"
+    },
+    {
+        "id": 28,
+        "title": "Sun Screens 2",
+        "url": "./../src/assets/photos/solar/img2.png",
+        "category": "Solar Screens"
+    },
+    {
+        "id": 29,
+        "title": "Sun Screens 3",
+        "url": "./../src/assets/photos/solar/img3.png",
+        "category": "Solar Screens"
+    },
+    {
+        "id": 30,
+        "title": "Sun Screens 4",
+        "url": "./../src/assets/photos/solar/img4.png",
+        "category": "Solar Screens"
+    },
+    {
+        "id": 31,
+        "title": "Sun Screens 5",
+        "url": "./../src/assets/photos/solar/img5.png",
+        "category": "Solar Screens"
+    },
+    {
+        "id": 32,
+        "title": "Sun Room 12",
+        "url": "./../src/assets/photos/sunrooms/img_12.jpg",
+        "category": "Sun Rooms"
+    },
+
+    {
         "id": 7,
         "title": "Motorized Roller Shade 1",
         "url": "path/to/motorized_roller_shade_1.jpg",

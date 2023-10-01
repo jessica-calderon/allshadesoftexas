@@ -67,7 +67,7 @@ function ServicesPage() {
 
             {selectedService && (
                 <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-                    <div className="bg-white p-8 max-w-md rounded-lg" >
+                    <div className="mt-[130px] bg-white p-8 max-w-md rounded-lg" >
                         <div className="flex justify-between items-center mb-4"> {/* Close button */}
                             <h2 className="text-xl text-black font-semibold">{selectedService}</h2>
                             <button className="text-xl font-semibold text-gray-600 hover:text-gray-800" style={{border: "none"}} onClick={closeModal}>
