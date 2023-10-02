@@ -34,7 +34,7 @@ function Navbar() {
                     <a href='#' className='text-white'>
                         <FaFacebook size={24} />
                     </a>
-                    <a href='#' className='text-white'>
+                    <a href='mailto:allshadesoftexas@yahoo.com' className='text-white'>
                         <FaEnvelope size={24} />
                     </a>
                     <a href='tel:2104400007' className='text-white'>

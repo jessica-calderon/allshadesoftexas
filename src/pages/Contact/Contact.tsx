@@ -6,6 +6,14 @@ import MapComponent from "../../components/MapComponent/MapComponent";
 function Contact() {
     return (
         <>
+            <div className='flex w-full bg-slate-600 items-center justify-center'>
+                <p className='animate-bounce lg:text-[24px] mt-6 sm:text-[20px] text-red-100 font-bold'>
+                    CONTACT US FOR A FREE ESTIMATE!!{" "}
+                    <a href='tel:2104400007' className='text-white'>
+                        (210) 440-0007
+                    </a>
+                </p>
+            </div>
             <div className='bg-slate-600 w-screen  py-8'>
                 <div className='flex items-center justify-center bg-slate-600'>
                     <div className='bg-slate-700 w-2/5 p-8 rounded-lg shadow-md'>
@@ -30,8 +38,8 @@ function Contact() {
                             </div>
                             <div className='flex items-center justify-center space-x-4'>
                                 <FaEnvelope className='text-white' />
-                                <a href='mailto:contact@example.com' className='hover:text-indigo-600'>
-                                    contact@example.com
+                                <a href='mailto:allshadesoftexas@yahoo.com' className='hover:text-indigo-600'>
+                                    allshadesoftexas@yahoo.com
                                 </a>
                             </div>
                         </div>

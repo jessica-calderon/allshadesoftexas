@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
                     <p className='mb-2'>Monday-Friday 8am-6pm</p>
                     <p className='mb-2'>WE ACCEPT</p>
                     <p className='mb-2'>Cash | Check | Credit/Debit Card | Money Order</p>
-                    <a href='#' className='text-blue-400 mt-4'>
+                    <a href='/request-an-appointment' className='text-blue-400 mt-4'>
                         Send Us A Message
                     </a>
                 </div>
@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
                         <img width='175px' src='./src/assets/logo/logoTransparent.png' alt='Logo' />
                     </div>
                     <div className='flex space-x-4'>
-                        <a href='#' className='text-blue-400 hover:text-blue-600'>
+                        <a href='mailto:allshadesoftexas@yahoo.com' className='text-blue-400 hover:text-blue-600'>
                             <FaEnvelope size={24} />
                         </a>
                         <a href='#' className='text-blue-400 hover:text-blue-600'>

@@ -13,7 +13,6 @@ function App() {
         <Router>
             <div className='App'>
                 <Navbar />
-                {/* Define your Route components */}
                 <Routes>
                     <Route path='/' element={<LandingPage />} />
                     <Route path='/services' element={<ServicesPage />} />

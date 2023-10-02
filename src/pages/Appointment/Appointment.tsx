@@ -17,7 +17,7 @@ const services = [
 
 function Appointment() {
     return (
-        <div className='flex h-screen w-screen py-8 justify-center bg-gray-500'>
+        <div className='flex h-full w-screen py-8 justify-center bg-gray-500'>
             <div className='bg-white p-8 rounded-lg shadow-md w-[500px]'>
                 <h2 className='text-xl font-semibold mb-4 text-black'>Request an Appointment</h2>
                 <form className='space-y-4'>
@@ -31,7 +31,7 @@ function Appointment() {
                                 id='name'
                                 name='name'
                                 required
-                                className='form-input block w-full sm:text-sm sm:leading-5 p-2 pl-10'
+                                className='form-input rounded block w-full sm:text-sm sm:leading-5 p-2 pl-10'
                                 placeholder='John Doe'
                             />
                             <AiOutlineUser className='absolute text-gray-400 left-3 top-1/2 transform -translate-y-1/2' />
@@ -48,7 +48,7 @@ function Appointment() {
                                 id='email'
                                 name='email'
                                 required
-                                className='form-input block p-2 w-full sm:text-sm sm:leading-5 pl-10'
+                                className='form-input rounded block p-2 w-full sm:text-sm sm:leading-5 pl-10'
                                 placeholder='johndoe@example.com'
                             />
                             <AiOutlineMail className='absolute text-gray-400 left-3 top-1/2 transform -translate-y-1/2' />
@@ -63,37 +63,37 @@ function Appointment() {
                             <input type='date' id='contactDate' name='contactDate' className='form-input block w-full sm:text-sm p-2 sm:leading-5' />
                         </div>
                     </div>
+                    <div className='flex justify-between'>
+                        <div className='w-1/2 mr-2'>
+                            <label htmlFor='propertyType' className='block text-sm font-medium text-gray-700'>
+                                Property Type
+                            </label>
+                            <div className='mt-1 relative rounded-md shadow-sm'>
+                                <select id='propertyType' name='propertyType' className='form-select block rounded p-2 w-full sm:text-sm sm:leading-5'>
+                                    <option value='residential'>Residential</option>
+                                    <option value='commercial'>Commercial</option>
+                                    <option value='n/a'>N/A</option>
+                                </select>
+                                <MdArrowDropDown className='absolute text-gray-400 top-3 right-3' />
+                            </div>
+                        </div>
 
-                    <div>
-                        <label htmlFor='propertyType' className='block text-sm font-medium text-gray-700'>
-                            Property Type
-                        </label>
-                        <div className='mt-1 relative rounded-md shadow-sm'>
-                            <select id='propertyType' name='propertyType' className='form-select block p-2 w-full sm:text-sm sm:leading-5'>
-                                <option value='residential'>Residential</option>
-                                <option value='commercial'>Commercial</option>
-                                <option value='n/a'>N/A</option>
-                            </select>
-                            <MdArrowDropDown className='absolute text-gray-400 top-3 right-3' />
+                        <div className='w-1/2'>
+                            <label htmlFor='service' className='block text-sm font-medium text-gray-700'>
+                                Service
+                            </label>
+                            <div className='mt-1 relative rounded-md shadow-sm'>
+                                <select id='service' name='service' className='form-select rounded block w-full sm:text-sm sm:leading-5 p-2'>
+                                    {services.map((service, index) => (
+                                        <option key={index} value={service}>
+                                            {service}
+                                        </option>
+                                    ))}
+                                </select>
+                                <MdArrowDropDown className='absolute text-gray-400 top-3 right-3' />
+                            </div>
                         </div>
                     </div>
-
-                    <div>
-                        <label htmlFor='service' className='block text-sm font-medium text-gray-700'>
-                            Service
-                        </label>
-                        <div className='mt-1 relative rounded-md shadow-sm'>
-                            <select id='service' name='service' className='form-select block w-full sm:text-sm sm:leading-5 p-2'>
-                                {services.map((service, index) => (
-                                    <option key={index} value={service}>
-                                        {service}
-                                    </option>
-                                ))}
-                            </select>
-                            <MdArrowDropDown className='absolute text-gray-400 top-3 right-3' />
-                        </div>
-                    </div>
-
                     <div>
                         <label htmlFor='message' className='block text-sm font-medium text-gray-700'>
                             Message <span className='text-red-500'>*</span>
@@ -104,7 +104,7 @@ function Appointment() {
                                 name='message'
                                 required
                                 rows={4}
-                                className='form-textarea block w-full transition duration-150 p-2 ease-in-out sm:text-sm sm:leading-5'
+                                className='form-textarea rounded p-2 block w-full transition duration-150 p-2 ease-in-out sm:text-sm sm:leading-5'
                                 placeholder='Tell us more about your needs...'
                             />
                             <AiOutlineMessage className='absolute text-gray-400 top-3 right-3' />

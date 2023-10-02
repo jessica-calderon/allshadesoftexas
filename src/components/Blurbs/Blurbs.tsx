@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 const ThreeColumns: React.FC = () => {
     const navigate = useNavigate();
     const handleServicesClick = () => {
-        navigate("/contact-us");
+        navigate("/services");
     };
     const handleContactUsClick = () => {
         navigate("/services");

@@ -21,7 +21,8 @@
     "react-router-dom": "^6.15.0",
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
-    "tailwindcss": "^3.3.3"
+    "tailwindcss": "^3.3.3",
+    "tailwindcss-transitions": "^2.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
