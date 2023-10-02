@@ -22,7 +22,7 @@ function Navbar() {
                 </div>
                 {/* contact us CTA */}
                 <div className='flex w-full items-center justify-center'>
-                    <p className='lg:text-[24px] sm:text-[20px] font-bold'>
+                    <p className='animate-pulse lg:text-[24px] sm:text-[20px] font-bold'>
                         CONTACT US FOR A FREE ESTIMATE!{" "}
                         <a href='tel:2104400007' className='text-white'>
                             (210) 440-0007

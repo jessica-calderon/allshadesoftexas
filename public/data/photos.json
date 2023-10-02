@@ -129,13 +129,13 @@
         "id": 22,
         "title": "Sun Room 8",
         "url": "./../src/assets/photos/sunrooms/img_8.jpg",
-        "category": "Solar Screens"
+        "category": "Sun Rooms"
     },
     {
         "id": 23,
         "title": "Sun Room 9",
         "url": "./../src/assets/photos/sunrooms/img_9.jpg",
-        "category": "Snaps Lock Roof"
+        "category": "Sun Rooms"
     },
     {
         "id": 24,
@@ -157,75 +157,769 @@
     },
     {
         "id": 27,
-        "title": "Sun Screens 1",
+        "title": "Solar Screens 1",
         "url": "./../src/assets/photos/solar/img1.png",
         "category": "Solar Screens"
     },
     {
         "id": 28,
-        "title": "Sun Screens 2",
+        "title": "Solar Screens 2",
         "url": "./../src/assets/photos/solar/img2.png",
         "category": "Solar Screens"
     },
     {
         "id": 29,
-        "title": "Sun Screens 3",
+        "title": "Solar Screens 3",
         "url": "./../src/assets/photos/solar/img3.png",
         "category": "Solar Screens"
     },
     {
         "id": 30,
-        "title": "Sun Screens 4",
+        "title": "Solar Screens 4",
         "url": "./../src/assets/photos/solar/img4.png",
         "category": "Solar Screens"
     },
     {
         "id": 31,
-        "title": "Sun Screens 5",
+        "title": "Solar Screens 5",
         "url": "./../src/assets/photos/solar/img5.png",
         "category": "Solar Screens"
     },
     {
         "id": 32,
-        "title": "Sun Room 12",
-        "url": "./../src/assets/photos/sunrooms/img_12.jpg",
-        "category": "Sun Rooms"
-    },
-
-    {
-        "id": 7,
         "title": "Motorized Roller Shade 1",
-        "url": "path/to/motorized_roller_shade_1.jpg",
+        "url": "./../src/assets/photos/rollershades/img_1.jpg",
         "category": "Roller Shades - Motorized & Manual"
     },
     {
-        "id": 8,
+        "id": 33,
+        "title": "Motorized Roller Shade 2",
+        "url": "./../src/assets/photos/rollershades/img_2.jpg",
+        "category": "Roller Shades - Motorized & Manual"
+    },
+    {
+        "id": 34,
+        "title": "Motorized Roller Shade 3",
+        "url": "./../src/assets/photos/rollershades/img_3.jpg",
+        "category": "Roller Shades - Motorized & Manual"
+    },
+    {
+        "id": 35,
+        "title": "Motorized Roller Shade 4",
+        "url": "./../src/assets/photos/rollershades/img_4.jpg",
+        "category": "Roller Shades - Motorized & Manual"
+    },
+    {
+        "id": 36,
+        "title": "Motorized Roller Shade 5",
+        "url": "./../src/assets/photos/rollershades/img_5.jpg",
+        "category": "Roller Shades - Motorized & Manual"
+    },
+    {
+        "id": 37,
+        "title": "Motorized Roller Shade 6",
+        "url": "./../src/assets/photos/rollershades/img_6.jpg",
+        "category": "Roller Shades - Motorized & Manual"
+    },
+    {
+        "id": 38,
+        "title": "Motorized Roller Shade 7",
+        "url": "./../src/assets/photos/rollershades/img_7.jpg",
+        "category": "Roller Shades - Motorized & Manual"
+    },
+    {
+        "id": 39,
+        "title": "Motorized Roller Shade 8",
+        "url": "./../src/assets/photos/rollershades/img_8.jpg",
+        "category": "Roller Shades - Motorized & Manual"
+    },
+    {
+        "id": 40,
+        "title": "Motorized Roller Shade 9",
+        "url": "./../src/assets/photos/rollershades/img_9.jpg",
+        "category": "Roller Shades - Motorized & Manual"
+    },
+    {
+        "id": 41,
+        "title": "Motorized Roller Shade 10",
+        "url": "./../src/assets/photos/rollershades/img_10.jpg",
+        "category": "Roller Shades - Motorized & Manual"
+    },
+    {
+        "id": 42,
+        "title": "Motorized Roller Shade 11",
+        "url": "./../src/assets/photos/rollershades/img_11.jpg",
+        "category": "Roller Shades - Motorized & Manual"
+    },
+    {
+        "id": 43,
+        "title": "Motorized Roller Shade 12",
+        "url": "./../src/assets/photos/rollershades/img_12.jpg",
+        "category": "Roller Shades - Motorized & Manual"
+    },
+    {
+        "id": 32,
+        "title": "Motorized Roller Shade 13",
+        "url": "./../src/assets/photos/rollershades/img_13.jpg",
+        "category": "Roller Shades - Motorized & Manual"
+    },
+    {
+        "id": 33,
+        "title": "Motorized Roller Shade 14",
+        "url": "./../src/assets/photos/rollershades/img_14.jpg",
+        "category": "Roller Shades - Motorized & Manual"
+    },
+    {
+        "id": 34,
+        "title": "Motorized Roller Shade 15",
+        "url": "./../src/assets/photos/rollershades/img_15.jpg",
+        "category": "Roller Shades - Motorized & Manual"
+    },
+    {
+        "id": 35,
+        "title": "Motorized Roller Shade 16",
+        "url": "./../src/assets/photos/rollershades/img_16.jpg",
+        "category": "Roller Shades - Motorized & Manual"
+    },
+    {
+        "id": 36,
+        "title": "Motorized Roller Shade 17",
+        "url": "./../src/assets/photos/rollershades/img_17.jpg",
+        "category": "Roller Shades - Motorized & Manual"
+    },
+    {
+        "id": 37,
+        "title": "Motorized Roller Shade 18",
+        "url": "./../src/assets/photos/rollershades/img_18.jpg",
+        "category": "Roller Shades - Motorized & Manual"
+    },
+    {
+        "id": 38,
+        "title": "Motorized Roller Shade 19",
+        "url": "./../src/assets/photos/rollershades/img_19.jpg",
+        "category": "Roller Shades - Motorized & Manual"
+    },
+    {
+        "id": 39,
+        "title": "Motorized Roller Shade 20",
+        "url": "./../src/assets/photos/rollershades/img_20.jpg",
+        "category": "Roller Shades - Motorized & Manual"
+    },
+    {
+        "id": 40,
+        "title": "Motorized Roller Shade 21",
+        "url": "./../src/assets/photos/rollershades/img_21.jpg",
+        "category": "Roller Shades - Motorized & Manual"
+    },
+    {
+        "id": 41,
+        "title": "Motorized Roller Shade 22",
+        "url": "./../src/assets/photos/rollershades/img_22.jpg",
+        "category": "Roller Shades - Motorized & Manual"
+    },
+    {
+        "id": 42,
+        "title": "Motorized Roller Shade 23",
+        "url": "./../src/assets/photos/rollershades/img_23.jpg",
+        "category": "Roller Shades - Motorized & Manual"
+    },
+    {
+        "id": 43,
+        "title": "Motorized Roller Shade 24",
+        "url": "./../src/assets/photos/rollershades/img_24.jpg",
+        "category": "Roller Shades - Motorized & Manual"
+    },
+    {
+        "id": 44,
+        "title": "Storm Doors 1",
+        "url": "./../src/assets/photos/storm_doors/img_1.jpg",
+        "category": "Storm Doors"
+    },
+    {
+        "id": 45,
+        "title": "Storm Doors 2",
+        "url": "./../src/assets/photos/storm_doors/img_2.jpg",
+        "category": "Storm Doors"
+    },
+    {
+        "id": 46,
+        "title": "Storm Doors 3",
+        "url": "./../src/assets/photos/storm_doors/img_3.jpg",
+        "category": "Storm Doors"
+    },
+    {
+        "id": 47,
+        "title": "Storm Doors 4",
+        "url": "./../src/assets/photos/storm_doors/img_4.jpg",
+        "category": "Storm Doors"
+    },
+    {
+        "id": 48,
+        "title": "Storm Doors 5",
+        "url": "./../src/assets/photos/storm_doors/img_5.jpg",
+        "category": "Storm Doors"
+    },
+    {
+        "id": 49,
+        "title": "Storm Doors 6",
+        "url": "./../src/assets/photos/storm_doors/img_6.jpg",
+        "category": "Storm Doors"
+    },
+    {
+        "id": 50,
+        "title": "Storm Doors 7",
+        "url": "./../src/assets/photos/storm_doors/img_7.jpg",
+        "category": "Storm Doors"
+    },
+    {
+        "id": 51,
+        "title": "Storm Doors 8",
+        "url": "./../src/assets/photos/storm_doors/img_8.jpg",
+        "category": "Storm Doors"
+    },
+    {
+        "id": 52,
+        "title": "Storm Doors 9",
+        "url": "./../src/assets/photos/storm_doors/img_9.jpg",
+        "category": "Storm Doors"
+    },
+    {
+        "id": 53,
+        "title": "Storm Doors 10",
+        "url": "./../src/assets/photos/storm_doors/img_10.jpg",
+        "category": "Storm Doors"
+    },
+    {
+        "id": 54,
+        "title": "Storm Doors 11",
+        "url": "./../src/assets/photos/storm_doors/img_11.jpg",
+        "category": "Storm Doors"
+    },
+    {
+        "id": 55,
+        "title": "Storm Doors 12",
+        "url": "./../src/assets/photos/storm_doors/img_12.jpg",
+        "category": "Storm Doors"
+    },
+    {
+        "id": 56,
+        "title": "Storm Doors 13",
+        "url": "./../src/assets/photos/storm_doors/img_13.jpg",
+        "category": "Storm Doors"
+    },
+    {
+        "id": 57,
+        "title": "Storm Doors 14",
+        "url": "./../src/assets/photos/storm_doors/img_14.jpg",
+        "category": "Storm Doors"
+    },
+    {
+        "id": 58,
+        "title": "Storm Doors 15",
+        "url": "./../src/assets/photos/storm_doors/img_15.jpg",
+        "category": "Storm Doors"
+    },
+    {
+        "id": 59,
         "title": "Retractable Garage Slider 1",
-        "url": "path/to/retractable_garage_slider_1.jpg",
-        "category": "Retractable Garage Sliders"
+        "url": "./../src/assets/photos/garage/img_1.jpg",
+        "category": "Retractable Garage Enclosures & Sliders"
     },
     {
-        "id": 9,
-        "title": "Before/After 1",
-        "url": "path/to/before_after_1.jpg",
-        "category": "Before/After"
+        "id": 60,
+        "title": "Retractable Garage Slider 2",
+        "url": "./../src/assets/photos/garage/img_2.jpg",
+        "category": "Retractable Garage Enclosures & Sliders"
     },
     {
-        "id": 10,
-        "title": "Enclosed Patio 2",
-        "url": "path/to/enclosed_patio_2.jpg",
-        "category": "Enclosed Patios/Porches"
+        "id": 61,
+        "title": "Retractable Garage Slider 3",
+        "url": "./../src/assets/photos/garage/img_3.jpg",
+        "category": "Retractable Garage Enclosures & Sliders"
     },
     {
-        "id": 11,
-        "title": "Sun Room 2",
-        "url": "path/to/sun_room_2.jpg",
-        "category": "Sun Rooms"
+        "id": 62,
+        "title": "Retractable Garage Slider 4",
+        "url": "./../src/assets/photos/garage/img_4.jpg",
+        "category": "Retractable Garage Enclosures & Sliders"
     },
     {
-        "id": 12,
-        "title": "Solar Screen 2",
-        "url": "path/to/solar_screen_2.jpg",
-        "category": "Solar Screens"
+        "id": 63,
+        "title": "Retractable Garage Slider 5",
+        "url": "./../src/assets/photos/garage/img_5.jpg",
+        "category": "Retractable Garage Enclosures & Sliders"
+    },
+    {
+        "id": 64,
+        "title": "Retractable Garage Slider 6",
+        "url": "./../src/assets/photos/garage/img_6.jpg",
+        "category": "Retractable Garage Enclosures & Sliders"
+    },
+    {
+        "id": 65,
+        "title": "Retractable Garage Slider 7",
+        "url": "./../src/assets/photos/garage/img_7.jpg",
+        "category": "Retractable Garage Enclosures & Sliders"
+    },
+    {
+        "id": 66,
+        "title": "Retractable Garage Slider 8",
+        "url": "./../src/assets/photos/garage/img_8.jpg",
+        "category": "Retractable Garage Enclosures & Sliders"
+    },
+    {
+        "id": 67,
+        "title": "Retractable Garage Slider 9",
+        "url": "./../src/assets/photos/garage/img_9.jpg",
+        "category": "Retractable Garage Enclosures & Sliders"
+    },
+    {
+        "id": 68,
+        "title": "Retractable Garage Slider 10",
+        "url": "./../src/assets/photos/garage/img_10.jpg",
+        "category": "Retractable Garage Enclosures & Sliders"
+    },
+    {
+        "id": 69,
+        "title": "Retractable Garage Slider 11",
+        "url": "./../src/assets/photos/garage/img_11.jpg",
+        "category": "Retractable Garage Enclosures & Sliders"
+    },
+    {
+        "id": 70,
+        "title": "Retractable Garage Slider 12",
+        "url": "./../src/assets/photos/garage/img_12.jpg",
+        "category": "Retractable Garage Enclosures & Sliders"
+    },
+    {
+        "id": 71,
+        "title": "Retractable Garage Slider 13",
+        "url": "./../src/assets/photos/garage/img_13.jpg",
+        "category": "Retractable Garage Enclosures & Sliders"
+    },
+    {
+        "id": 72,
+        "title": "Retractable Garage Slider 14",
+        "url": "./../src/assets/photos/garage/img_14.jpg",
+        "category": "Retractable Garage Enclosures & Sliders"
+    },
+    {
+        "id": 73,
+        "title": "Retractable Garage Slider 15",
+        "url": "./../src/assets/photos/garage/img_15.jpg",
+        "category": "Retractable Garage Enclosures & Sliders"
+    },
+    {
+        "id": 74,
+        "title": "Retractable Garage Slider 16",
+        "url": "./../src/assets/photos/garage/img_16.jpg",
+        "category": "Retractable Garage Enclosures & Sliders"
+    },
+    {
+        "id": 75,
+        "title": "Retractable Garage Slider 17",
+        "url": "./../src/assets/photos/garage/img_17.jpg",
+        "category": "Retractable Garage Enclosures & Sliders"
+    },
+    {
+        "id": 76,
+        "title": "Retractable Garage Slider 18",
+        "url": "./../src/assets/photos/garage/img_18.jpg",
+        "category": "Retractable Garage Enclosures & Sliders"
+    },
+    {
+        "id": 77,
+        "title": "Aluminum Rails 1",
+        "url": "./../src/assets/photos/aluminum/img_1.jpg",
+        "category": "Aluminum Rails"
+    },
+    {
+        "id": 78,
+        "title": "Aluminum Rails 2",
+        "url": "./../src/assets/photos/aluminum/img_2.jpg",
+        "category": "Aluminum Rails"
+    },
+    {
+        "id": 79,
+        "title": "Aluminum Rails 3",
+        "url": "./../src/assets/photos/aluminum/img_3.jpg",
+        "category": "Aluminum Rails"
+    },
+    {
+        "id": 80,
+        "title": "Aluminum Rails 4",
+        "url": "./../src/assets/photos/aluminum/img_4.jpg",
+        "category": "Aluminum Rails"
+    },
+    {
+        "id": 81,
+        "title": "Aluminum Rails 5",
+        "url": "./../src/assets/photos/aluminum/img_5.jpg",
+        "category": "Aluminum Rails"
+    },
+    {
+        "id": 82,
+        "title": "Aluminum Rails 6",
+        "url": "./../src/assets/photos/aluminum/img_6.jpg",
+        "category": "Aluminum Rails"
+    },
+    {
+        "id": 83,
+        "title": "Aluminum Rails 7",
+        "url": "./../src/assets/photos/aluminum/img_7.jpg",
+        "category": "Aluminum Rails"
+    },
+    {
+        "id": 84,
+        "title": "Aluminum Rails 8",
+        "url": "./../src/assets/photos/aluminum/img_8.jpg",
+        "category": "Aluminum Rails"
+    },
+    {
+        "id": 85,
+        "title": "Replacement Glass Windows 1",
+        "url": "./../src/assets/photos/windows/img_1.jpg",
+        "category": "Replacement Glass Windows"
+    },
+    {
+        "id": 86,
+        "title": "Replacement Glass Windows 2",
+        "url": "./../src/assets/photos/windows/img_2.jpg",
+        "category": "Replacement Glass Windows"
+    },
+    {
+        "id": 87,
+        "title": "Replacement Glass Windows 3",
+        "url": "./../src/assets/photos/windows/img_3.jpg",
+        "category": "Replacement Glass Windows"
+    },
+    {
+        "id": 88,
+        "title": "Replacement Glass Windows 4",
+        "url": "./../src/assets/photos/windows/img_4.jpg",
+        "category": "Replacement Glass Windows"
+    },
+    {
+        "id": 89,
+        "title": "Snaps Lock Roof 1",
+        "url": "https://via.placeholder.com/150?text=Pictures Coming Soon",
+        "category": "Snaps Lock Roof"
+    },
+    {
+        "id": 90,
+        "title": "Patio Covers 1",
+        "url": "./../src/assets/photos/covers/img_1.jpg",
+        "category": "Patio Covers"
+    },
+    {
+        "id": 91,
+        "title": "Patio Covers 2",
+        "url": "./../src/assets/photos/covers/img_2.jpg",
+        "category": "Patio Covers"
+    },
+    {
+        "id": 92,
+        "title": "Patio Covers 3",
+        "url": "./../src/assets/photos/covers/img_3.jpg",
+        "category": "Patio Covers"
+    },
+    {
+        "id": 93,
+        "title": "Patio Covers 4",
+        "url": "./../src/assets/photos/covers/img_4.jpg",
+        "category": "Patio Covers"
+    },
+    {
+        "id": 94,
+        "title": "Patio Covers 5",
+        "url": "./../src/assets/photos/covers/img_5.jpg",
+        "category": "Patio Covers"
+    },
+    {
+        "id": 95,
+        "title": "Patio Covers 6",
+        "url": "./../src/assets/photos/covers/img_6.jpg",
+        "category": "Patio Covers"
+    },
+    {
+        "id": 96,
+        "title": "Patio Covers 7",
+        "url": "./../src/assets/photos/covers/img_7.jpg",
+        "category": "Patio Covers"
+    },
+    {
+        "id": 97,
+        "title": "Patio Covers 8",
+        "url": "./../src/assets/photos/covers/img_8.jpg",
+        "category": "Patio Covers"
+    },
+    {
+        "id": 98,
+        "title": "Patio Covers 9",
+        "url": "./../src/assets/photos/covers/img_9.jpg",
+        "category": "Patio Covers"
+    },
+    {
+        "id": 99,
+        "title": "Patio Covers 10",
+        "url": "./../src/assets/photos/covers/img_10.jpg",
+        "category": "Patio Covers"
+    },
+    {
+        "id": 100,
+        "title": "Patio Covers 11",
+        "url": "./../src/assets/photos/covers/img_11.jpg",
+        "category": "Patio Covers"
+    },
+    {
+        "id": 101,
+        "title": "Patio Covers 12",
+        "url": "./../src/assets/photos/covers/img_12.jpg",
+        "category": "Patio Covers"
+    },
+    {
+        "id": 102,
+        "title": "Patio Covers 13",
+        "url": "./../src/assets/photos/covers/img_13.jpg",
+        "category": "Patio Covers"
+    },
+    {
+        "id": 103,
+        "title": "Patio Covers 14",
+        "url": "./../src/assets/photos/covers/img_14.jpg",
+        "category": "Patio Covers"
+    },
+    {
+        "id": 104,
+        "title": "Patio Covers 15",
+        "url": "./../src/assets/photos/covers/img_15.jpg",
+        "category": "Patio Covers"
+    },
+    {
+        "id": 105,
+        "title": "Patio Covers 16",
+        "url": "./../src/assets/photos/covers/img_16.jpg",
+        "category": "Patio Covers"
+    },
+    {
+        "id": 106,
+        "title": "Patio Covers 17",
+        "url": "./../src/assets/photos/covers/img_17.jpg",
+        "category": "Patio Covers"
+    },
+    {
+        "id": 107,
+        "title": "Patio Covers 18",
+        "url": "./../src/assets/photos/covers/img_18.jpg",
+        "category": "Patio Covers"
+    },
+    {
+        "id": 108,
+        "title": "Patio Covers 19",
+        "url": "./../src/assets/photos/covers/img_19.jpg",
+        "category": "Patio Covers"
+    },
+    {
+        "id": 109,
+        "title": "Patio Covers 20",
+        "url": "./../src/assets/photos/covers/img_20.jpg",
+        "category": "Patio Covers"
+    },
+    {
+        "id": 110,
+        "title": "Patio Covers 21",
+        "url": "./../src/assets/photos/covers/img_21.jpg",
+        "category": "Patio Covers"
+    },
+    {
+        "id": 111,
+        "title": "Patio Covers 22",
+        "url": "./../src/assets/photos/covers/img_22.jpg",
+        "category": "Patio Covers"
+    },
+    {
+        "id": 112,
+        "title": "Patio Covers 23",
+        "url": "./../src/assets/photos/covers/img_23.jpg",
+        "category": "Patio Covers"
+    },
+    {
+        "id": 113,
+        "title": "Patio Covers 24",
+        "url": "./../src/assets/photos/covers/img_24.jpg",
+        "category": "Patio Covers"
+    },
+    {
+        "id": 114,
+        "title": "Patio Covers 25",
+        "url": "./../src/assets/photos/covers/img_25.jpg",
+        "category": "Patio Covers"
+    },
+    {
+        "id": 115,
+        "title": "Patio Covers 26",
+        "url": "./../src/assets/photos/covers/img_26.jpg",
+        "category": "Patio Covers"
+    },
+    {
+        "id": 116,
+        "title": "Patio Covers 27",
+        "url": "./../src/assets/photos/covers/img_27.jpg",
+        "category": "Patio Covers"
+    },
+    {
+        "id": 117,
+        "title": "Patio Covers 28",
+        "url": "./../src/assets/photos/covers/img_28.jpg",
+        "category": "Patio Covers"
+    },
+    {
+        "id": 118,
+        "title": "Patio Covers 29",
+        "url": "./../src/assets/photos/covers/img_29.jpg",
+        "category": "Patio Covers"
+    },
+    {
+        "id": 119,
+        "title": "Screen Rooms 1",
+        "url": "./../src/assets/photos/screen_rooms/img_1.jpg",
+        "category": "Screen Rooms"
+    },
+    {
+        "id": 120,
+        "title": "Screen Rooms 2",
+        "url": "./../src/assets/photos/screen_rooms/img_1.jpg",
+        "category": "Screen Rooms"
+    },
+    {
+        "id": 121,
+        "title": "Screen Rooms 3",
+        "url": "./../src/assets/photos/screen_rooms/img_1.jpg",
+        "category": "Screen Rooms"
+    },
+    {
+        "id": 122,
+        "title": "Screen Rooms 4",
+        "url": "./../src/assets/photos/screen_rooms/img_1.jpg",
+        "category": "Screen Rooms"
+    },
+    {
+        "id": 123,
+        "title": "Screen Rooms 5",
+        "url": "./../src/assets/photos/screen_rooms/img_1.jpg",
+        "category": "Screen Rooms"
+    },
+    {
+        "id": 124,
+        "title": "Screen Rooms 6",
+        "url": "./../src/assets/photos/screen_rooms/img_1.jpg",
+        "category": "Screen Rooms"
+    },
+    {
+        "id": 125,
+        "title": "Screen Rooms 7",
+        "url": "./../src/assets/photos/screen_rooms/img_1.jpg",
+        "category": "Screen Rooms"
+    },
+    {
+        "id": 126,
+        "title": "Screen Rooms 8",
+        "url": "./../src/assets/photos/screen_rooms/img_1.jpg",
+        "category": "Screen Rooms"
+    },
+    {
+        "id": 127,
+        "title": "Screen Rooms 9",
+        "url": "./../src/assets/photos/screen_rooms/img_1.jpg",
+        "category": "Screen Rooms"
+    },
+    {
+        "id": 128,
+        "title": "Screen Rooms 10",
+        "url": "./../src/assets/photos/screen_rooms/img_1.jpg",
+        "category": "Screen Rooms"
+    },
+    {
+        "id": 129,
+        "title": "Screen Rooms 11",
+        "url": "./../src/assets/photos/screen_rooms/img_1.jpg",
+        "category": "Screen Rooms"
+    },
+    {
+        "id": 130,
+        "title": "Screen Rooms 12",
+        "url": "./../src/assets/photos/screen_rooms/img_1.jpg",
+        "category": "Screen Rooms"
+    },
+    {
+        "id": 131,
+        "title": "Screen Rooms 13",
+        "url": "./../src/assets/photos/screen_rooms/img_1.jpg",
+        "category": "Screen Rooms"
+    },
+    {
+        "id": 132,
+        "title": "Screen Rooms 14",
+        "url": "./../src/assets/photos/screen_rooms/img_1.jpg",
+        "category": "Screen Rooms"
+    },
+    {
+        "id": 133,
+        "title": "Screen Rooms 15",
+        "url": "./../src/assets/photos/screen_rooms/img_1.jpg",
+        "category": "Screen Rooms"
+    },
+    {
+        "id": 134,
+        "title": "Screen Rooms 16",
+        "url": "./../src/assets/photos/screen_rooms/img_1.jpg",
+        "category": "Screen Rooms"
+    },
+    {
+        "id": 135,
+        "title": "Screen Rooms 17",
+        "url": "./../src/assets/photos/screen_rooms/img_1.jpg",
+        "category": "Screen Rooms"
+    },    {
+        "id": 136,
+        "title": "Screen Rooms 18",
+        "url": "./../src/assets/photos/screen_rooms/img_1.jpg",
+        "category": "Screen Rooms"
+    },
+    {
+        "id": 137,
+        "title": "Screen Rooms 19",
+        "url": "./../src/assets/photos/screen_rooms/img_1.jpg",
+        "category": "Screen Rooms"
+    },
+    {
+        "id": 138,
+        "title": "Screen Rooms 20",
+        "url": "./../src/assets/photos/screen_rooms/img_1.jpg",
+        "category": "Screen Rooms"
+    },
+    {
+        "id": 139,
+        "title": "Screen Rooms 21",
+        "url": "./../src/assets/photos/screen_rooms/img_1.jpg",
+        "category": "Screen Rooms"
+    },
+    {
+        "id": 140,
+        "title": "Screen Rooms 22",
+        "url": "./../src/assets/photos/screen_rooms/img_1.jpg",
+        "category": "Screen Rooms"
+    },
+    {
+        "id": 141,
+        "title": "Screen Rooms 23",
+        "url": "./../src/assets/photos/screen_rooms/img_1.jpg",
+        "category": "Screen Rooms"
+    },
+    {
+        "id": 142,
+        "title": "Screen Doors 1",
+        "url": "https://via.placeholder.com/150?text=Pictures Coming Soon",
+        "category": "Screen Doors"
     }
 ]
