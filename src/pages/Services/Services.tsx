@@ -46,6 +46,7 @@ function ServicesPage() {
     return (
         <section className="flex flex-col w-screen items-center justify-center h-full py-10 bg-slate-800">
             <div className="mx-auto w-[65%] p-8 sm:p-8 bg-white rounded-lg overflow-hidden shadow-md mb-8">
+                {/* <p className='text-black h2 font-semibold'>Our Services</p> */}
                 <div className="flex flex-wrap justify-center p-1">
                     {services.map((service, index) => (
                         <div

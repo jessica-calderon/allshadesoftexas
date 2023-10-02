@@ -60,7 +60,7 @@ function Appointment() {
                             Preferred Contact Date
                         </label>
                         <div className='mt-1 relative rounded-md shadow-sm'>
-                            <input type='date' id='contactDate' name='contactDate' className='form-input block w-full sm:text-sm p-2 sm:leading-5' />
+                            <input type='date' id='contactDate' name='contactDate' className='form-input rounded block w-full sm:text-sm p-2 sm:leading-5' />
                         </div>
                     </div>
                     <div className='flex justify-between'>
@@ -89,6 +89,7 @@ function Appointment() {
                                             {service}
                                         </option>
                                     ))}
+                                    <option value='Something Else'>Something Else</option>
                                 </select>
                                 <MdArrowDropDown className='absolute text-gray-400 top-3 right-3' />
                             </div>

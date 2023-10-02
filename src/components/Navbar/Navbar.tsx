@@ -16,10 +16,11 @@ function Navbar() {
             <div className='sticky bg-gray-900 top-0 bg-blue-500 p-4 flex justify-between items-center z-50'>
                 {/* Logo */}
                 {/* <div className='text-2xl text-white font-bold'>All Shades of Texas</div> */}
-                <div className='flex'>
+                <a href='/'><div className='flex'>
+
                     <img className='h-[50px]' src='./src/assets/logo/gradient1.png' />
                     <img className='h-[50px]' src='./src/assets/logo/text.png' />
-                </div>
+                </div></a>
                 {/* contact us CTA */}
                 <div className='flex w-full items-center justify-center'>
                     <p className='animate-pulse lg:text-[24px] sm:text-[20px] font-bold'>
