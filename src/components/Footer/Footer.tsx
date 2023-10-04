@@ -1,5 +1,6 @@
 import React from "react";
 import { FaFacebook, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
+import angi from "../../assets/photos/icons/angi.svg"
 
 const Footer: React.FC = () => {
     return (
@@ -20,7 +21,11 @@ const Footer: React.FC = () => {
                             (210) 440-0007
                         </a>
                     </p>
-                    <p>Serving San Antonio, Austin, & Surrounding Areas</p>
+                    <p className='mb-2'>Serving San Antonio, Austin, & Surrounding Areas</p>
+
+                    <a href='/request-an-appointment' className='text-blue-400'>
+                        Send Us A Message
+                    </a>
                 </div>
 
                 {/* Second Column */}
@@ -29,9 +34,12 @@ const Footer: React.FC = () => {
                     <p className='mb-2'>Monday-Friday 8am-6pm</p>
                     <p className='mb-2'>WE ACCEPT</p>
                     <p className='mb-2'>Cash | Check | Credit/Debit Card | Money Order</p>
-                    <a href='/request-an-appointment' className='text-blue-400 mt-4'>
-                        Send Us A Message
-                    </a>
+
+                    <span className='flex flex-col items-center justify-center gap-1'>
+                        <p className='mb-2'>Find us on Angi! <em>Formerly Angie's List</em></p>
+                        {/* TODO: insert angi list link */}
+                        <img src={angi} />
+                    </span>
                 </div>
 
                 {/* Third Column */}

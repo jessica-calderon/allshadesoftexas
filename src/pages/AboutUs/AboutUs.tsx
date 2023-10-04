@@ -1,8 +1,8 @@
-import { FaCreditCard, FaDollarSign, FaMoneyBill, FaMoneyCheckAlt, FaSun } from "react-icons/fa";
+import { FaCreditCard, FaDollarSign, FaMoneyBill, FaMoneyCheckAlt, FaSun, FaPhoneAlt } from "react-icons/fa";
 
 function AboutUs() {
     return (
-        <section className='px-10 flex h-screen pt-10 items-start justify-start bg-gray-500'>
+        <><section className='px-10 flex h-full pt-10 items-start justify-start bg-gray-500'>
             <div className='container mx-auto grid grid-cols-3 gap-6'>
                 {/* Column 1 */}
                 <div className='bg-gray-600 p-4 rounded-md'>
@@ -86,6 +86,16 @@ function AboutUs() {
                 </div>
             </div>
         </section>
+            <section className='bg-gray-500 p-4 flex justify-center items-center font-bold text-3xl'>
+                <span className='animate-bounce w-full flex justify-center items-center gap-2'>
+                    <FaPhoneAlt/>
+                    CALL US TODAY FOR A FREE ESTIMATE!!{" "}
+                    <a href='tel:2104400007' className='text-white'>
+                        (210) 440-0007
+                    </a>
+                </span>
+            </section>
+        </>
     );
 }
 
