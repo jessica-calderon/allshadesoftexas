@@ -7,16 +7,16 @@ function Contact() {
     return (
         <>
             <div className='flex w-full bg-slate-600 items-center justify-center'>
-                <p className='animate-bounce lg:text-[24px] mt-6 sm:text-[20px] text-red-100 font-bold'>
+                <p className='animate-bounce lg:text-[24px] mt-6 sm:text-[20px] text-black font-bold'>
                     CONTACT US FOR A FREE ESTIMATE!!{" "}
-                    <a href='tel:2104400007' className='text-white'>
+                    <a href='tel:2104400007' className='text-black'>
                         (210) 440-0007
                     </a>
                 </p>
             </div>
             <div className='bg-slate-600 w-screen  py-8'>
                 <div className='flex items-center justify-center bg-slate-600'>
-                    <div className='bg-slate-700 w-2/5 p-8 rounded-lg shadow-md'>
+                    <div className='bg-slate-800 w-2/5 p-8 rounded-lg shadow-md'>
                         <h2 className='text-xl font-semibold mb-4'>Contact Us</h2>
                         <div className='mb-4'>
                             <div className='flex items-center justify-center space-x-4'>

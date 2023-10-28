@@ -43,23 +43,24 @@ function ServicesPage() {
     // Filter photos for the selected category
     const filteredPhotos = photosData.filter((photo) => photo.category === selectedService);
 
-    return (
-        <section className="flex flex-col w-screen items-center justify-center h-full py-10 bg-slate-800">
-            <div className="mx-auto w-[65%] p-8 sm:p-8 bg-white rounded-lg overflow-hidden shadow-md mb-8">
-                {/* <p className='text-black h2 font-semibold'>Our Services</p> */}
-                <div className="flex flex-wrap justify-center p-1">
-                    {services.map((service, index) => (
-                        <div
-                            key={index}
-                            className="bg-gray-800 text-white p-4 border rounded-md cursor-pointer hover:bg-gray-700 w-1/2"
-                            onClick={() => handleServiceClick(service)}
-                        >
-                            {service}
-                        </div>
-                    ))}
+        return (
+            <section className="flex flex-col w-screen items-center justify-center h-full py-10 bg-slate-800">
+                <div className="mx-auto w-[65%] p-8 sm:p-8 bg-white rounded-lg overflow-hidden shadow-md mb-8">
+                <h1 className="text-3xl font-extrabold text-center text-gray-900 mb-6">
+                        Click On A Service To See Pictures!
+                    </h1>
+                    <div className="flex flex-wrap justify-center p-1">
+                        {services.map((service, index) => (
+                            <div
+                                key={index}
+                                className="bg-gray-800 text-white p-4 border rounded-md cursor-pointer hover:bg-gray-700 w-1/2"
+                                onClick={() => handleServiceClick(service)}
+                            >
+                                {service}
+                            </div>
+                        ))}
+                    </div>
                 </div>
-
-            </div>
 
             <div className="mx-auto p-8 bg-white rounded-lg shadow-md mb-8 w-[65%]">
                 <div className="flex">

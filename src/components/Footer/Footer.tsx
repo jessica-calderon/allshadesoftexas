@@ -30,9 +30,9 @@ const Footer: React.FC = () => {
 
                 {/* Second Column */}
                 <div className='w-1/3 px-6 border-r border-l border-gray-700'>
-                    <h3 className='mb-3'>HOURS</h3>
-                    <p className='mb-2'>Monday-Friday 8am-6pm</p>
-                    <p className='mb-2'>WE ACCEPT</p>
+                    {/* <h3 className='mb-3'>HOURS</h3>
+                    <p className='mb-2'>Monday-Friday 8am-6pm</p> */}
+                    <p className='mb-2 font-semibold'>WE ACCEPT</p>
                     <p className='mb-2'>Cash | Check | Credit/Debit Card | Money Order</p>
 
                     <span className='flex flex-col items-center justify-center gap-1'>
@@ -43,7 +43,7 @@ const Footer: React.FC = () => {
                 </div>
 
                 {/* Third Column */}
-                <div className='w-1/3 pl-6 flex flex-col items-center'>
+                <div className='w-1/3 pl-6 flex flex-col items-center justify-center h-full'>
                     <div className='mb-3'>
                         {/* Place for the logo */}
                         <img width='175px' src='./src/assets/logo/logoTransparent.png' alt='Logo' />

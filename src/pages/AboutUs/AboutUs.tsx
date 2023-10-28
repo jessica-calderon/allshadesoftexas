@@ -2,10 +2,10 @@ import { FaCreditCard, FaDollarSign, FaMoneyBill, FaMoneyCheckAlt, FaSun, FaPhon
 
 function AboutUs() {
     return (
-        <><section className='px-10 flex h-full pt-10 items-start justify-start bg-gray-500'>
+        <><section className='px-10 flex w-screen h-full pt-10 items-start justify-start bg-gray-500'>
             <div className='container mx-auto grid grid-cols-3 gap-6'>
                 {/* Column 1 */}
-                <div className='bg-gray-600 p-4 rounded-md'>
+                <div className='bg-gray-800 p-4 rounded-md'>
                     <h2 className='text-2xl font-bold mb-4'>All Shades of Texas</h2>
                     <p>Licensed, Insured, Expert Work</p>
                     <p>Over 25 years experience</p>
@@ -13,9 +13,9 @@ function AboutUs() {
                 </div>
 
                 {/* Column 2 */}
-                <div className='bg-gray-700 p-4 rounded-md'>
+                <div className='bg-gray-800 py-4 px-3 rounded-md'>
                     <h3 className='text-2xl font-bold mb-4'>Our services include</h3>
-                    <ul className='list-disc pl-6 mb-6'>
+                    <ul className='list-disc pl-4 mb-6'>
                         <li className='flex items-center'>
                             <FaSun className='text-yellow-400 mr-2' />
                             Enclosed Patios/Porches
@@ -40,11 +40,9 @@ function AboutUs() {
                             <FaSun className='text-yellow-400 mr-2' />
                             Screen Doors
                         </li>
-                        <li className='flex items-start'>
-                            {" "}
-                            {/* Change from items-center to items-start */}
+                        <li className='flex items-center'>
                             <FaSun className='text-yellow-400 mr-2' />
-                            Motorized & Manual Roller Shades
+                            <span className='whitespace-nowrap'> Motorized & Manual Roller Shades</span>
                         </li>
                         <li className='flex items-center'>
                             <FaSun className='text-yellow-400 mr-2' />
@@ -86,10 +84,9 @@ function AboutUs() {
                 </div>
             </div>
         </section>
-            <section className='bg-gray-500 p-4 flex justify-center items-center font-bold text-3xl'>
+            <section className='bg-gray-500 p-4 flex justify-center items-center font-bold text-3xl text-black'>
                 <span className='animate-bounce w-full flex justify-center items-center gap-2'>
-                    <FaPhoneAlt/>
-                    CALL US TODAY FOR A FREE ESTIMATE!!{" "}
+                    CALL US TODAY FOR A FREE ESTIMATE!!{" "}<span className='rotate-120'><FaPhoneAlt /></span>
                     <a href='tel:2104400007' className='text-white'>
                         (210) 440-0007
                     </a>

@@ -19,11 +19,11 @@ function Navbar() {
                 <a href='/'><div className='flex'>
 
                     <img className='h-[50px]' src='./src/assets/logo/gradient1.png' />
-                    <img className='h-[50px]' src='./src/assets/logo/text.png' />
+                    {/* <img className='h-[50px] sm:hidden' src='./src/assets/logo/text.png' /> */}
                 </div></a>
                 {/* contact us CTA */}
                 <div className='flex w-full items-center justify-center'>
-                    <p className='animate-pulse lg:text-[24px] sm:text-[20px] font-bold'>
+                    <p className='animate-pulse lg:text-[24px] sm:text-[20px] font-bold hide-on-small hide-on-medium'>
                         CONTACT US FOR A FREE ESTIMATE!{" "}
                         <a href='tel:2104400007' className='text-white'>
                             (210) 440-0007
@@ -45,7 +45,7 @@ function Navbar() {
             </div>
             {/* Hamburger Menu Button */}
             {isSmallerScreen && (
-                <div className='flex w-full'>
+                <div className='flex w-full bg-gray-700 justify-end'>
                     <button onClick={toggleMenu} className='text-white lg:hidden bg-gray-700'>
                         <svg className='w-6 h-6' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                             <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M4 6h16M4 12h16M4 18h16' />
@@ -55,14 +55,11 @@ function Navbar() {
             )}
             <div className='flex items-center'>
                 <div className={`lg:hidden ${isMenuOpen ? "block" : "hidden"}`}>
-                    <a href='tel:2104400007' className='text-white'>
-                        (210) 440-0007
-                    </a>
                 </div>
             </div>
 
             {/* Navigation Menu */}
-            <div className={`${isMenuOpen ? "block" : "hidden"} lg:block lg:sticky lg:top-16 bg-gray-700 opacity-90 p-4 z-50`}>
+            <div className={`${isMenuOpen ? "block" : "hidden"} lg:block lg:sticky lg:top-16 bg-gray-700 px-4 py-2 z-50`}>
                 <div className={`lg:flex ${isMenuOpen ? "flex-col" : "flex-row"} items-center justify-center`}>
                     {[
                         { text: "Home", link: "/" },
@@ -76,13 +73,16 @@ function Navbar() {
                         <Link
                             key={linkItem.text}
                             to={linkItem.link}
-                            className={`block text-white hover:underline lg:my-0 ${isMenuOpen ? "my-2" : "mx-4"}`}
+                            className={`flex text-white hover:underline lg:my-2 whitespace-nowrap ${isMenuOpen ? "my-2" : "mx-4"}`}
                         >
                             {linkItem.text}
                         </Link>
+
+
+
                     ))}
-                    <div className='hidden lg:block'>
-                        <a href='tel:2104400007' className='text-white ml-4'>
+                    <div className='flex w-full items-center justify-end mr-4'>
+                        <a href='tel:2104400007' className='text-white'>
                             (210) 440-0007
                         </a>
                     </div>

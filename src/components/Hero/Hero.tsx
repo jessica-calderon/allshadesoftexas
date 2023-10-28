@@ -39,7 +39,7 @@ function Hero() {
                     <div className='mb-4'>
                         <img src={logo} width={"200px"} />
                     </div>
-                    <button onClick={handleApptClick} className='bg-[rgb(251,175,68)] hover:bg-transparent p-2 rounded'>
+                    <button onClick={handleApptClick} className='bg-[rgb(251,175,68)] hover:border hover:border-white text-black p-2 rounded'>
                         Request an Appointment
                     </button>
                 </div>
