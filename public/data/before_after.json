@@ -1,0 +1,116 @@
+[
+    {
+        "id": 1,
+        "title": "Before/After 1",
+        "url": "./../src/assets/photos/before_after/ba_1.jpg",
+        "category": "Before/After"
+    },
+    {
+        "id": 2,
+        "title": "Before/After 2",
+        "url": "./../src/assets/photos/before_after/ba_2.jpg",
+        "category": "Before/After"
+    },
+    {
+        "id": 3,
+        "title": "Before/After 3",
+        "url": "./../src/assets/photos/before_after/ba_3.jpg",
+        "category": "Before/After"
+    },
+    {
+        "id": 4,
+        "title": "Before/After 4",
+        "url": "./../src/assets/photos/before_after/ba_4.jpg",
+        "category": "Before/After"
+    },
+    {
+        "id": 5,
+        "title": "Before/After 5",
+        "url": "./../src/assets/photos/before_after/ba_5.jpg",
+        "category": "Before/After"
+    },
+    {
+        "id": 6,
+        "title": "Before/After 6",
+        "url": "./../src/assets/photos/before_after/ba_6.jpg",
+        "category": "Before/After"
+    },
+    {
+        "id": 7,
+        "title": "Before/After 7",
+        "url": "./../src/assets/photos/before_after/ba_7.jpg",
+        "category": "Before/After"
+    },
+    {
+        "id": 8,
+        "title": "Before/After 8",
+        "url": "./../src/assets/photos/before_after/ba_8.jpg",
+        "category": "Before/After"
+    },
+    {
+        "id": 9,
+        "title": "Before/After 9",
+        "url": "./../src/assets/photos/before_after/ba_9.jpg",
+        "category": "Before/After"
+    },
+    {
+        "id": 10,
+        "title": "Before/After 10",
+        "url": "./../src/assets/photos/before_after/ba_10.jpg",
+        "category": "Before/After"
+    },
+    {
+        "id": 11,
+        "title": "Before/After 11",
+        "url": "./../src/assets/photos/before_after/ba_11.jpg",
+        "category": "Before/After"
+    },
+    {
+        "id": 12,
+        "title": "Before/After 12",
+        "url": "./../src/assets/photos/before_after/ba_12.jpg",
+        "category": "Before/After"
+    },
+    {
+        "id": 13,
+        "title": "Before/After 13",
+        "url": "./../src/assets/photos/before_after/ba_13.jpg",
+        "category": "Before/After"
+    },
+    {
+        "id": 14,
+        "title": "Before/After 14",
+        "url": "./../src/assets/photos/before_after/ba_14.jpg",
+        "category": "Before/After"
+    },
+    {
+        "id": 15,
+        "title": "Before/After 15",
+        "url": "./../src/assets/photos/before_after/ba_15.jpg",
+        "category": "Before/After"
+    },
+    {
+        "id": 16,
+        "title": "Before/After 16",
+        "url": "./../src/assets/photos/before_after/ba_16.jpg",
+        "category": "Before/After"
+    },
+    {
+        "id": 17,
+        "title": "Before/After 17",
+        "url": "./../src/assets/photos/before_after/ba_17.jpg",
+        "category": "Before/After"
+    },
+    {
+        "id": 18,
+        "title": "Before/After 17",
+        "url": "./../src/assets/photos/before_after/ba_18.jpg",
+        "category": "Before/After"
+    },
+    {
+        "id": 19,
+        "title": "Before/After 19",
+        "url": "./../src/assets/photos/before_after/ba_19.jpg",
+        "category": "Before/After"
+    }
+]

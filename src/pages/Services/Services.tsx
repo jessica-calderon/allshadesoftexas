@@ -1,8 +1,9 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import photosData from "../../../public/data/photos.json";
+import beforeAfterData from "../../../public/data/before_after.json"; // Import the Before/After images JSON file
 import LatestWork from "../../components/LatestWork/LatestWork";
 import { FaWindowClose } from "react-icons/fa";
 
@@ -24,6 +25,13 @@ const services = [
 function ServicesPage() {
     const [selectedService, setSelectedService] = useState<string | null>(null);
     const [showBeforeAfter, setShowBeforeAfter] = useState<boolean>(false);
+    const [beforeAfterImages, setBeforeAfterImages] = useState<string[]>([]);
+
+    useEffect(() => {
+        // Map the 'url' property from the Before/After images JSON file
+        const images = beforeAfterData.map((item: { url: string }) => item.url);
+        setBeforeAfterImages(images);
+    }, []);
 
     const handleServiceClick = (service: string) => {
         setSelectedService(service);
@@ -75,7 +83,7 @@ function ServicesPage() {
 
             {selectedService && (
                 <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-                    <div className="mt-24 h-[40px] bg-white p-8 max-w-md rounded-lg relative">
+                    <div className="mt-24 h-[440px] bg-white p-8 max-w-md rounded-lg relative">
                         <div className="flex justify-between items-center mb-4">
                             <h2 className="text-xl text-black font-semibold">{selectedService}</h2>
                             <button
@@ -99,7 +107,7 @@ function ServicesPage() {
 
             {showBeforeAfter && (
                 <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-                    <div className="mt-10 w-[80%] max-h-[80%] overflow-hidden bg-white p-8 max-w-md rounded-lg relative">
+                    <div className="mt-24 w-[80%] overflow-hidden bg-white p-8 max-w-md rounded-lg relative h-[425px]">
                         <div className="flex justify-between items-center mb-4">
                             <h2 className="text-xl text-black font-semibold">Before/After</h2>
                             <button
@@ -110,24 +118,13 @@ function ServicesPage() {
                                 <FaWindowClose />
                             </button>
                         </div>
-                        <div className="grid grid-cols-3 gap-4">
-                            {[1, 2, 3].map((index) => (
-                                <img
-                                    key={index}
-                                    src={`https://via.placeholder.com/150?text=Before ${index}`}
-                                    alt={`Before ${index}`}
-                                    className="w-full h-[300px] object-contain"
-                                />
+                        <Slider dots={true} infinite={true} speed={500} slidesToShow={1} slidesToScroll={1}>
+                            {beforeAfterImages.map((image, index) => (
+                                <div className="w-[400px]" key={index}>
+                                    <img src={image} alt={`Before/After ${index}`} className="w-full h-[300px] object-contain" />
+                                </div>
                             ))}
-                            {[1, 2, 3].map((index) => (
-                                <img
-                                    key={index}
-                                    src={`https://via.placeholder.com/150?text=After ${index}`}
-                                    alt={`After ${index}`}
-                                    className="w-full h-[300px] object-contain"
-                                />
-                            ))}
-                        </div>
+                        </Slider>
                     </div>
                 </div>
             )}
