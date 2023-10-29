@@ -9,7 +9,7 @@ const ThreeColumns: React.FC = () => {
         navigate("/services");
     };
     const handleContactUsClick = () => {
-        navigate("/services");
+        navigate("/contact-us");
     };
 
     return (

@@ -1,6 +1,13 @@
 import { FaCreditCard, FaDollarSign, FaMoneyBill, FaMoneyCheckAlt, FaSun, FaPhoneAlt } from "react-icons/fa";
+import texas from '../../assets/photos/icons/texas.png';
+import { useNavigate } from "react-router-dom";
+
 
 function AboutUs() {
+    const handleContactUsClick = () => {
+        const navigate = useNavigate();
+        navigate("/contact-us");
+    };
     return (
         <><section className='px-10 flex w-screen h-full pt-10 items-start justify-start bg-gray-500'>
             <div className='container mx-auto grid grid-cols-3 gap-6'>
@@ -9,8 +16,12 @@ function AboutUs() {
                     <h2 className='text-2xl font-bold mb-4'>All Shades of Texas</h2>
                     <p>Licensed, Insured, Expert Work</p>
                     <p>Over 25 years experience</p>
-                    <p>Serving San Antonio, Texas, Austin, Texas, and Surrounding Areas</p>
+                    <img src={texas} alt='Texas' className='w-1/4 mx-auto my-2' />
+                    <p className=''>Made in Texas</p>
+                    <p>Limited Lifetime Warranty</p>
+                    <p>10% Military Discount</p>
                 </div>
+
 
                 {/* Column 2 */}
                 <div className='bg-gray-800 py-4 px-3 rounded-md'>
@@ -30,10 +41,6 @@ function AboutUs() {
                         </li>
                         <li className='flex items-center'>
                             <FaSun className='text-yellow-400 mr-2' />
-                            Snaps Lock Roof
-                        </li>
-                        <li className='flex items-center'>
-                            <FaSun className='text-yellow-400 mr-2' />
                             Storm Doors
                         </li>
                         <li className='flex items-center'>
@@ -49,6 +56,7 @@ function AboutUs() {
                             Retractable Garage Sliders
                         </li>
                     </ul>
+                    <p>Serving San Antonio, Texas, Austin, Texas, and Surrounding Areas</p>
                 </div>
 
                 {/* Column 3 */}
@@ -73,12 +81,12 @@ function AboutUs() {
                         </li>
                     </ul>
                     <div className='flex flex-col w-full justify-center'>
-                        <p className=''>Made in Texas</p>
-                        <p>Limited Lifetime Warranty</p>
-                        <p>10% Military Discount</p>
                         <span className='flex w-full justify-center mr-2'>
-                            Contact us for a free estimate
+                            Ready to get started? Contact us for a free estimate!
                         </span>
+                        <button onClick={handleContactUsClick} className='px-4 py-2 w-[50%] mx-auto  mt-2 text-white rounded-lg hover:bg-[rgb(251,175,68)]'>
+                            Contact Us
+                        </button>
                         {/* Insert contact button here */}
                     </div>
                 </div>
