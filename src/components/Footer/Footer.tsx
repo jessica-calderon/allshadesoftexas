@@ -4,13 +4,13 @@ import angi from "../../assets/photos/icons/angi.svg";
 
 const Footer: React.FC = () => {
     return (
-        <div className="bg-gray-900 w-[100%] text-white p-6">
+        <div className="bg-gray-900 text-white p-6 w-full">
             <div className="container mx-auto flex flex-col md:flex-row justify-between">
                 {/* Third Column */}
-                <div className="md:w-1/3 flex flex-col items-center justify-center h-full mb-4">
-                    <div className="mb-3">
+                <div className="md:w-1/3 flex flex-col items-center justify-center h-full mb-4 text-center">
+                    <div className="mb-3 mx-auto">
                         {/* Place for the logo */}
-                        <img width="175px" src="./src/assets/logo/logoTransparent.png" alt="Logo" />
+                        <img width="175" src="./src/assets/logo/logoTransparent.png" alt="Logo" />
                     </div>
                     <div className="flex space-x-4">
                         <a href="mailto:allshadesoftexas@yahoo.com" className="text-blue-400 hover:text-blue-600">
@@ -30,15 +30,13 @@ const Footer: React.FC = () => {
 
                 {/* Second Column */}
                 <div className="md:w-1/3 px-6 md:border-l md:border-r border-gray-700 mb-4 md:mb-0">
-                    {/* <h3 className='mb-3'>HOURS</h3>
-                    <p className='mb-2'>Monday-Friday 8am-6pm</p> */}
                     <p className="mb-2 font-semibold">WE ACCEPT</p>
                     <p className="mb-2">Cash | Check | Credit/Debit Card | Money Order</p>
 
                     <span className="flex flex-col items-center justify-center gap-1">
                         <p className="mb-2">Find us on Angi! <em>Formerly Angie's List</em></p>
                         {/* TODO: insert angi list link */}
-                        <img src={angi} />
+                        <img src={angi} alt="Angi logo" />
                     </span>
                 </div>
 
