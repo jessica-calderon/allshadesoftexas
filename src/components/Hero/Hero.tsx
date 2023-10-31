@@ -1,33 +1,23 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import logo from "../../assets/logo/logoTransparent.png";
+import hero from "../../assets/photos/hero/img_1.jpg";
 import img1 from "../../assets/solar/img1.png";
 import img2 from "../../assets/solar/img2.png";
 import img3 from "../../assets/solar/img3.png";
 import img4 from "../../assets/solar/img4.png";
 import img5 from "../../assets/solar/img5.png";
-import hero from "../../assets/photos/hero/img_1.jpg"
-import { useNavigate } from "react-router-dom";
-import logo from "../../assets/logo/logoTransparent.png";
 
 function Hero() {
-    const images = [img1, img2, img3, img4, img5];
-    const [currentImage, setCurrentImage] = useState(0);
     const navigate = useNavigate();
 
     const handleApptClick = () => {
         navigate("/request-an-appointment");
     };
 
-    // useEffect(() => {
-    //     const interval = setInterval(() => {
-    //         setCurrentImage((prevImage) => (prevImage + 1) % images.length);
-    //     }, 5000); // Change image every 5 seconds
-
-    //     return () => clearInterval(interval);
-    // }, []);
-
     return (
         <div>
-            {/* Slideshow */}
+            {/* hero image */}
             <div className='relative h-96 overflow-hidden'>
                 <div className='relative w-full h-full'>
                     <img src={hero} alt='Solar screen with natural light shining through and green foliage in background' className='w-full h-full object-cover' />

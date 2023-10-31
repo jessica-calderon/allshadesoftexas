@@ -19,27 +19,6 @@ const services = [
     "Aluminum Rails",
     "Patio Covers"
 ];
-function NextArrow(props: { onClick: any; }) {
-    const { onClick } = props;
-    return (
-        <div 
-            onClick={onClick}
-            className="absolute right-0 z-10 flex items-center justify-center p-2 text-white bg-black rounded-full cursor-pointer top-1/2 -translate-y-1/2">
-            <FaArrowRight />
-        </div>
-    );
-}
-
-function PrevArrow(props: { onClick: any; }) {
-    const { onClick } = props;
-    return (
-        <div 
-            onClick={onClick}
-            className="absolute left-0 z-10 flex items-center justify-center p-2 text-white bg-black rounded-full cursor-pointer top-1/2 -translate-y-1/2">
-            <FaArrowLeft />
-        </div>
-    );
-}
 
 function ServicesPage() {
     const [selectedService, setSelectedService] = useState<string | null>(null);
@@ -79,7 +58,7 @@ function ServicesPage() {
                 <div className="flex flex-wrap justify-center p-1">
                     {services.map((service, index) => (
                         <div key={index} className="w-1/2 p-4 text-white bg-gray-800 border rounded-md cursor-pointer hover:bg-gray-700" onClick={() => handleServiceClick(service)}>
-                            {service}
+                           <span className='my-auto'>{service}</span> 
                         </div>
                     ))}
                 </div>

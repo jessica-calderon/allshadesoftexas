@@ -1,9 +1,8 @@
-import img1 from '../../assets/photos/enclosed_sliders/img_1.jpg'
-import img2 from '../../assets/photos/enclosed_sliders/img_2.jpg'
-import img3 from '../../assets/photos/enclosed_sliders/img_3.jpg'
+import img1 from '../../assets/photos/rollershades/img_14.jpg'
+import img2 from '../../assets/photos/enclosed_sliders/img_1.jpg'
+import img3 from '../../assets/photos/enclosed/img_40.jpg'
 
 const LatestWork = () => {
-    // Placeholder images for latest work slideshow
     const latestWorkImages = [
         img1, img2, img3
     ];

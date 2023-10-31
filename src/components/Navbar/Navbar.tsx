@@ -83,7 +83,7 @@ function Navbar() {
             </div>
 
             {/* Mobile Navigation Menu */}
-            <div className={`${isMenuOpen ? "block" : "hidden"} fixed top-16 w-full bg-gray-700 px-4 py-2 z-101 navbar`}>
+            <div className={`${isMenuOpen ? "block" : "hidden"} fixed top-16 w-full bg-gray-700 px-4 py-2 z-150 navbar`}>
 
                 <div className='flex flex-col items-center justify-center'>
                     {[
