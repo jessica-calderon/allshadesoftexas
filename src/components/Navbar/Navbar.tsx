@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { FaEnvelope, FaFacebook, FaPhoneAlt } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
 
@@ -31,7 +31,7 @@ function Navbar() {
             <div className='sticky top-0 bg-gray-900 p-4 flex justify-between items-center z-100'>
                 <div className='flex items-center space-x-4'>
                     <a href='/' className='flex'>
-                        <img className='h-[50px]' src='./src/assets/logo/gradient1.png' alt="Logo" />
+                        <img className='h-[50px]' src='/assets/logo/gradient1.png' alt="Logo" />
                     </a>
                     <div className='hidden lg:flex gap-4'>
                         <a href='#' className='text-white'>

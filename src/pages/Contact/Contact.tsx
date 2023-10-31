@@ -1,6 +1,5 @@
-import React from "react";
-import { FaPhone, FaFacebook, FaEnvelope } from "react-icons/fa";
-import Logo from "../../assets/logo/logoTransparent.png";
+import { FaEnvelope, FaFacebook, FaPhone } from "react-icons/fa";
+import Logo from "/assets/logo/logoTransparent.png";
 import MapComponent from "../../components/MapComponent/MapComponent";
 
 function Contact() {

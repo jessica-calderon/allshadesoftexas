@@ -1,6 +1,6 @@
-import img1 from '../../assets/photos/rollershades/img_14.jpg'
-import img2 from '../../assets/photos/enclosed_sliders/img_1.jpg'
-import img3 from '../../assets/photos/enclosed/img_40.jpg'
+import img1 from '/assets/photos/enclosed_sliders/img_14.jpg'
+import img2 from '/assets/photos/enclosed_sliders/img_1.jpg'
+import img3 from '/assets/photos/enclosed/img_40.jpg'
 
 const LatestWork = () => {
     const latestWorkImages = [

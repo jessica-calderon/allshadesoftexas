@@ -1,10 +1,8 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar";
-import Hero from "../Hero/Hero";
-import Footer from "../Footer/Footer";
 import Blurbs from "../Blurbs/Blurbs";
-import QRComponent from "../QRComponent/QRComponent";
+import Hero from "../Hero/Hero";
 import MapComponent from "../MapComponent/MapComponent";
+import QRComponent from "../QRComponent/QRComponent";
 
 const LandingPage: React.FC = () => {
     return (

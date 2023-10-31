@@ -1,6 +1,6 @@
 import React from "react";
 import { FaFacebook, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
-import angi from "../../assets/photos/icons/angi.svg";
+import angi from "/assets/photos/icons/angi.svg";
 
 const Footer: React.FC = () => {
     return (
@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
                 <div className="md:w-1/3 flex flex-col items-center justify-center h-full mb-4 text-center">
                     <div className="mb-3 mx-auto">
                         {/* Place for the logo */}
-                        <img width="175" src="./src/assets/logo/logoTransparent.png" alt="Logo" />
+                        <img width="175" src="/assets/logo/logoTransparent.png" alt="Logo" />
                     </div>
                     <div className="flex space-x-4">
                         <a href="mailto:allshadesoftexas@yahoo.com" className="text-blue-400 hover:text-blue-600">

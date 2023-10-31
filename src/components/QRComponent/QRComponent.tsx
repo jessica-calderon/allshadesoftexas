@@ -9,7 +9,7 @@ const QRComponent: React.FC = () => {
             </div>
             <p className='text-center text-xl'>Scan the QR code with your phone to add us to your contacts!</p>
             {/* Display QR Code */}
-            <img src='./src/assets/allShadesQr.png' alt='QR Code' width='300px' className='' />
+            <img src='/assets/allShadesQr.png' alt='QR Code' width='300px' className='' />
         </div>
     );
 };

@@ -1,12 +1,6 @@
-import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import logo from "../../assets/logo/logoTransparent.png";
-import hero from "../../assets/photos/hero/img_1.jpg";
-import img1 from "../../assets/solar/img1.png";
-import img2 from "../../assets/solar/img2.png";
-import img3 from "../../assets/solar/img3.png";
-import img4 from "../../assets/solar/img4.png";
-import img5 from "../../assets/solar/img5.png";
+import logo from "/assets/logo/logoTransparent.png";
+import hero from "/assets/photos/hero/img_1.jpg";
 
 function Hero() {
     const navigate = useNavigate();

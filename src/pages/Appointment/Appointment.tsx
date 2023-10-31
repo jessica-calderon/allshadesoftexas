@@ -1,6 +1,6 @@
 import emailjs from 'emailjs-com';
 import { useState } from 'react';
-import { AiOutlineMail, AiOutlineMessage, AiOutlineUser, AiOutlinePhone, AiOutlineCalendar } from "react-icons/ai";
+import { AiOutlineMail, AiOutlineMessage, AiOutlinePhone, AiOutlineUser } from "react-icons/ai";
 import { MdArrowDropDown } from "react-icons/md";
 import './appointment.css';
 

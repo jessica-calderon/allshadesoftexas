@@ -6,7 +6,7 @@ import {
     FaSun,
     FaPhoneAlt,
 } from "react-icons/fa";
-import texas from "../../assets/photos/icons/texas.png";
+import texas from "/assets/photos/icons/texas.png";
 import { useNavigate } from "react-router-dom";
 
 function AboutUs() {
