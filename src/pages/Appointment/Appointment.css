@@ -1,0 +1,22 @@
+/* appointment.css */
+
+/* Remove default dropdown arrow */
+select.form-select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding-right: 2.5rem; /* Add some padding for custom arrow icon */
+    background-image: url('path-to-your-custom-arrow-icon.svg'); /* Replace with your custom arrow icon */
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+  
+  /* Adjust custom arrow icon position */
+  .select-icon {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+  

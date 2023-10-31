@@ -6,7 +6,6 @@
 
 * [Description](#description)
 * [Built With](#languages)
-* [Installation](#installation)
 * [Contributing](#contributing)
 * [Usage](#usage)
 * [Questions](#questions)
@@ -18,7 +17,7 @@ A front-end website for Texas-based commercial business All Shades of Texas.
 
 ## [Languages](#table-of-contents)
 
-HTML, CSS, Bootstrap, JavaScript
+React, TypeScript, Tailwind
 
 ## [Usage](#table-of-contents)
 
@@ -28,14 +27,10 @@ Customers can learn about All Shades of Texas, their services, and contact them 
 
 Thank you for your interest in contributing to this project, however, I am currently not accepting third party contributions.
 
-## [Installation](#table-of-contents)
-
-link
-
 ## [Application Preview](#table-of-contents)
 
 Click the image to see the live demo.
-<a href='https://www.allshadesoftexas.net' alt='preview'><img src='./assets/img/index.png'></a>
+<a href='https://www.allshadesoftexas.net' alt='preview'><img src='./public/assets/index.png'></a>
 
 ## [Questions](#table-of-contents)
 
