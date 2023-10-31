@@ -12,17 +12,11 @@ function Navbar() {
     return (
         <>
             <div className='sticky top-0 bg-gray-900 p-4 flex justify-between items-center z-50'>
-                <a href='/' className='flex'>
-                    <img className='h-[50px]' src='./src/assets/logo/gradient1.png' alt="Logo" />
-                </a>
-
                 <div className='flex items-center space-x-4'>
-                    <button onClick={toggleMenu} className='lg:hidden text-white p-2'>
-                        <svg className='w-6 h-6' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
-                            <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M4 6h16M4 12h16M4 18h16' />
-                        </svg>
-                    </button>
-                    <div className='hidden lg:flex space-x-4'>
+                    <a href='/' className='flex'>
+                        <img className='h-[50px]' src='./src/assets/logo/gradient1.png' alt="Logo" />
+                    </a>
+                    <div className='hidden lg:flex gap-4'>
                         <a href='#' className='text-white'>
                             <FaFacebook size={24} />
                         </a>
@@ -33,17 +27,24 @@ function Navbar() {
                             <FaPhoneAlt size={24} />
                         </a>
                     </div>
+                </div>
 
+                <div className='hidden lg:flex'>
+                    <p className='animate-pulse lg:text-[15px] font-bold text-white ml-4'>
+                        CALL US FOR A FREE ESTIMATE!{" "}
+                        <a href='tel:2104400007' className='text-white'>
+                            (210) 440-0007
+                        </a>
+                    </p>
+                </div>
+
+                <div className='flex items-center space-x-4'>
+                    <button onClick={toggleMenu} className='lg:hidden text-white p-2'>
+                        <svg className='w-6 h-6' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                            <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M4 6h16M4 12h16M4 18h16' />
+                        </svg>
+                    </button>
                     <div className='hidden lg:flex w-full justify-end items-center space-x-4'>
-                        <div>
-                            <p className='animate-pulse lg:text-[16px] font-bold'>
-                                CONTACT US FOR A FREE ESTIMATE!{" "}
-                                <a href='tel:2104400007' className='text-white'>
-                                    (210) 440-0007
-                                </a>
-                            </p>
-                        </div>
-
                         {[
                             { text: "Home", link: "/" },
                             { text: "About Us", link: "/about-us" },
