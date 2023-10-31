@@ -104,8 +104,8 @@ function AboutUs() {
                     </div>
                 </div>
             </section>
-            <section className="bg-gray-500 p-4 flex justify-center items-center font-bold text-3xl text-black">
-                <span className="animate-bounce w-full flex justify-center items-center gap-2">
+            <section className="bg-gray-500 p-4 flex justify-center items-center font-bold text-3xl">
+                <span className="animate-bounce w-full flex justify-center text-[#00A9DD] items-center gap-2">
                     CALL US TODAY FOR A FREE ESTIMATE!!{" "}
                     <span className="rotate-120">
                         <FaPhoneAlt />

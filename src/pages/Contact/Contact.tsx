@@ -6,10 +6,10 @@ import MapComponent from "../../components/MapComponent/MapComponent";
 function Contact() {
     return (
         <>
-            <div className='flex w-full bg-slate-600 items-center justify-center'>
-                <p className='animate-bounce lg:text-[24px] mt-6 sm:text-[20px] text-black font-bold'>
+            <div className='flex w-full bg-slate-600 items-center justify-center z-50'>
+                <p className='animate-bounce lg:text-[24px] mt-6 sm:text-[20px] text-[#00A9DD] font-bold'>
                     CONTACT US FOR A FREE ESTIMATE!!{" "}
-                    <a href='tel:2104400007' className='text-black'>
+                    <a href='tel:2104400007' className='text-white'>
                         (210) 440-0007
                     </a>
                 </p>
