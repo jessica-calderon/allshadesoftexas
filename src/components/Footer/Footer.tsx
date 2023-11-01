@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
                     <p className="mb-2 font-semibold">WE ACCEPT</p>
                     <p className="mb-2">Cash | Check | Credit/Debit Card | Money Order</p>
 
-                    <div className="flex flex-col items-center justify-center gap-1 mt-16">
+                    <div className="flex flex-col items-center justify-center gap-1 lg:mt-16">
                         <p className="mb-2">Find us on Angi! <em>Formerly Angie's List</em></p>
                         {/* TODO: insert angi list link */}
                         <div className=''>

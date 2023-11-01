@@ -64,7 +64,7 @@ function ServicesPage() {
                 </div>
             </div>
 
-            <div className="w-[65%] p-8 mx-auto mb-8 bg-white rounded-lg shadow-md">
+            <div className="md:w-[90%] p-8 mx-auto mb-8 bg-white rounded-lg shadow-md">
                 <div className="flex">
                     <div className="w-full p-4 text-white bg-gray-800 border rounded-md cursor-pointer hover:bg-gray-700" onClick={handleBeforeAfterClick}>
                         Before/After
