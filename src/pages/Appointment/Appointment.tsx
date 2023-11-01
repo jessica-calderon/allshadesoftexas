@@ -51,7 +51,7 @@ function Appointment() {
             {toast.visible && <Toast message={toast.message} type={toast.type} />}
             <div className='bg-white p-8 rounded-lg shadow-md w-full max-w-2xl'>
                 <h2 className='text-xl font-bold mb-4 text-black'>Request An Appointment</h2>
-                <form className='space-y-4 text-start' onSubmit={sendEmail}>
+                <form className='space-y-4 text-start z-10' onSubmit={sendEmail}>
                     <div className='relative'>
                         <label htmlFor='name' className='block text-sm font-medium text-black'>
                             Name <span className='text-red-500'>*</span>

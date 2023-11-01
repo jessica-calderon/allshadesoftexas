@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
+import { FaEnvelope, FaFacebook, FaPhoneAlt, FaStar } from "react-icons/fa";
 import angi from "/assets/photos/icons/angi.svg";
 
 const Footer: React.FC = () => {
@@ -12,32 +12,40 @@ const Footer: React.FC = () => {
                         {/* Place for the logo */}
                         <img width="175" src="/assets/logo/logoTransparent.png" alt="Logo" />
                     </div>
-                    <div className="flex space-x-4">
+                    <div className="flex space-x-4 mt-2">
                         <a href="mailto:allshadesoftexas@yahoo.com" className="text-blue-400 hover:text-blue-600">
                             <FaEnvelope size={24} />
                         </a>
-                        <a href="#" className="text-blue-400 hover:text-blue-600">
+                        <a href="https://www.facebook.com/allshadesoftexas" target='_blank' rel="noopener noreferrer" className="text-blue-400 hover:text-blue-600">
                             <FaFacebook size={24} />
                         </a>
                         <a href="tel:2104400007" className="text-blue-400 hover:text-blue-600">
                             <FaPhoneAlt size={24} />
                         </a>
                     </div>
+                    <div className='flex justify-center items-center text-white hover:text-[red] mt-2'>
+                        <a href="https://www.facebook.com/allshadesoftexas/reviews" target="_blank" rel="noopener noreferrer" className='flex items-center justify-center font-semibold text-white px-4 py-2 rounded-md inline-block my-2 transition-colors duration-300'>
+                            <FaStar /> <span className='ml-2'>Leave a Review</span>
+                        </a>
+                    </div>
+
                 </div>
 
                 {/* Separator for smaller screens */}
                 <div className="w-full md:hidden border-t border-gray-700 mb-4"></div>
 
                 {/* Second Column */}
-                <div className="md:w-1/3 px-6 md:border-l md:border-r border-gray-700 mb-4 md:mb-0">
+                <div className="md:w-1/3 px-6 md:border-l md:border-r border-gray-700 mb-10 md:mb-0">
                     <p className="mb-2 font-semibold">WE ACCEPT</p>
                     <p className="mb-2">Cash | Check | Credit/Debit Card | Money Order</p>
 
-                    <span className="flex flex-col items-center justify-center gap-1">
+                    <div className="flex flex-col items-center justify-center gap-1 mt-16">
                         <p className="mb-2">Find us on Angi! <em>Formerly Angie's List</em></p>
                         {/* TODO: insert angi list link */}
-                        <img src={angi} alt="Angi logo" />
-                    </span>
+                        <div className=''>
+                            <img src={angi} alt="Angi logo" />
+                        </div>
+                    </div>
                 </div>
 
                 {/* Separator for smaller screens */}
@@ -63,6 +71,7 @@ const Footer: React.FC = () => {
                     <a href="/request-an-appointment" className="text-blue-400">
                         Send Us A Message
                     </a>
+
                 </div>
             </div>
         </div>

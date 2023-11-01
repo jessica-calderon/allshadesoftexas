@@ -28,26 +28,26 @@ function Navbar() {
 
     return (
         <>
-            <div className='sticky top-0 bg-gray-900 p-4 flex justify-between items-center z-100'>
+            <div className='sticky top-0 bg-gray-900 p-4 flex justify-between items-center z-50'>
                 <div className='flex items-center space-x-4'>
                     <a href='/' className='flex'>
-                        <img className='h-[50px]' src='/assets/logo/gradient1.png' alt="Logo" />
+                        <img className='h-[50px] lg:h-[40px]' src='/assets/logo/gradient1.png' alt="Logo" />
                     </a>
-                    <div className='hidden lg:flex gap-4'>
-                        <a href='#' className='text-white'>
-                            <FaFacebook size={24} />
+                    <div className='hidden lg:flex gap-2'>
+                        <a href='https://www.facebook.com/allshadesoftexas' target='_blank' rel="noopener noreferrer" className='text-white'>
+                            <FaFacebook size={20} />
                         </a>
                         <a href='mailto:allshadesoftexas@yahoo.com' className='text-white'>
-                            <FaEnvelope size={24} />
+                            <FaEnvelope size={20} />
                         </a>
                         <a href='tel:2104400007' className='text-white'>
-                            <FaPhoneAlt size={24} />
+                            <FaPhoneAlt size={20} />
                         </a>
                     </div>
                 </div>
 
                 <div className='hidden lg:flex'>
-                    <p className='animate-pulse md:text-[12px] lg:text-[14px] font-bold text-[#00A9DD] ml-4'>
+                    <p className='animate-pulse md:text-[12px] lg:text-[14px] font-bold text-[#00A9DD] ml-2'>
                         CALL FOR A FREE ESTIMATE!{" "}
                         <a href='tel:2104400007' className='text-white'>
                             (210) 440-0007
@@ -83,7 +83,7 @@ function Navbar() {
             </div>
 
             {/* Mobile Navigation Menu */}
-            <div className={`${isMenuOpen ? "block" : "hidden"} fixed top-16 w-full bg-gray-700 px-4 py-2 z-150 navbar`}>
+            <div className={`${isMenuOpen ? "block" : "hidden"} fixed top-16 w-full bg-gray-700 px-4 py-2 z-50 navbar`}>
 
                 <div className='flex flex-col items-center justify-center'>
                     {[

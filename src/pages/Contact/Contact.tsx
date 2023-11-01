@@ -1,6 +1,8 @@
-import { FaEnvelope, FaFacebook, FaPhone } from "react-icons/fa";
+import { FaEnvelope, FaFacebook, FaPhone, FaStar } from "react-icons/fa";
 import Logo from "/assets/logo/logoTransparent.png";
 import MapComponent from "../../components/MapComponent/MapComponent";
+// import { Link } from 'react-router-dom';
+
 
 function Contact() {
     return (
@@ -15,7 +17,7 @@ function Contact() {
             </div>
             <div className='bg-slate-600 w-screen  py-8'>
                 <div className='flex items-center justify-center bg-slate-600'>
-                    <div className='bg-slate-800 w-2/5 p-8 rounded-lg shadow-md'>
+                    <div className='bg-slate-800 p-8 rounded-lg shadow-md'>
                         <h2 className='text-xl font-semibold mb-4'>Contact Us</h2>
                         <div className='mb-4'>
                             <div className='flex items-center justify-center space-x-4'>
@@ -27,7 +29,7 @@ function Contact() {
                             <div className='flex items-center justify-center space-x-4'>
                                 <FaFacebook className='text-white' />
                                 <a
-                                    href='https://www.facebook.com/yourpage'
+                                    href='https://www.facebook.com/allshadesoftexas'
                                     target='_blank'
                                     rel='noopener noreferrer'
                                     className='hover:text-indigo-600'
@@ -35,6 +37,18 @@ function Contact() {
                                     Visit us on Facebook
                                 </a>
                             </div>
+                            <div className='flex items-center justify-center space-x-4'>
+                                <FaStar className='text-white' />
+                                <a
+                                    href='https://www.facebook.com/allshadesoftexas/reviews'
+                                    target='_blank'
+                                    rel='noopener noreferrer'
+                                    className='hover:text-indigo-600'
+                                >
+                                    Leave Us A Review
+                                </a>
+                            </div>
+
                             <div className='flex items-center justify-center space-x-4'>
                                 <FaEnvelope className='text-white' />
                                 <a href='mailto:allshadesoftexas@yahoo.com' className='hover:text-indigo-600'>
