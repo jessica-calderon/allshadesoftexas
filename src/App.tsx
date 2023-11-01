@@ -1,12 +1,13 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import "./App.css";
+import Footer from './components/Footer/Footer';
 import LandingPage from "./components/LandingPage/LandingPage";
 import Navbar from "./components/Navbar/Navbar";
+import ReviewPrompt from './components/ReviewPrompt/ReviewPrompt';
 import AboutUs from "./pages/AboutUs/AboutUs";
 import Appointment from "./pages/Appointment/Appointment";
 import Contact from "./pages/Contact/Contact";
 import ServicesPage from "./pages/Services/Services";
-import Footer from './components/Footer/Footer';
 
 function App() {
     return (
@@ -21,6 +22,7 @@ function App() {
                     <Route path='/contact-us' element={<Contact />} />
                 </Routes>
                 <Footer />
+                <ReviewPrompt />
             </div>
         </Router>
     );

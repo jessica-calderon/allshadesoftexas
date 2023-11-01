@@ -12,7 +12,7 @@ function Hero() {
     return (
         <div>
             {/* hero image */}
-            <div className='relative h-96 overflow-hidden'>
+            <div className='relative h-96 overflow-hidden z-10'>
                 <div className='relative w-full h-full'>
                     <img src={hero} alt='Solar screen with natural light shining through and green foliage in background' className='w-full h-full object-cover' />
                     <div className='absolute inset-0 bg-black opacity-70'></div>

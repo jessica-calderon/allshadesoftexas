@@ -51,7 +51,7 @@ function ServicesPage() {
 
     return (
         <section className="flex flex-col items-center justify-center w-screen h-full py-10 bg-slate-800">
-            <div className="w-[65%] p-8 mx-auto mb-8 overflow-hidden bg-white rounded-lg shadow-md sm:p-8">
+            <div className="md:w-[90%] p-8 mx-auto mb-8 overflow-hidden bg-white rounded-lg shadow-md sm:p-8">
                 <h1 className="mb-6 text-3xl font-extrabold text-center text-gray-900">
                     Click On A Service To See Pictures!
                 </h1>
